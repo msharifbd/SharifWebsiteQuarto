@@ -1,0 +1,19 @@
+---
+title: "Machine Learning in Accounting"
+jupyter: python3
+description: "How does Machine Learning affect Accounting?"
+---
+
+About this site
+
+```{python}
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+import sklearn
+```
+
+```{python}
+import os
+```
+

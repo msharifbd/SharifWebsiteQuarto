@@ -1,0 +1,13 @@
+---
+title: "Artificial Intelligence in Accounting"
+jupyter: python3
+description: "How is Artificial Intelligence affecting Accounting?"
+---
+
+About this site
+
+```{python}
+import pandas as pd
+import numpy as np
+```
+

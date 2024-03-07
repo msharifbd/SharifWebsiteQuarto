@@ -1,0 +1,18 @@
+---
+title: "About"
+jupyter: python3
+---
+
+About this site
+
+```{python}
+1 + 1
+```
+
+Good reference to create a website in quarto - <https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide>
+
+```{python}
+import os
+os.getcwd()
+```
+

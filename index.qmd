@@ -1,0 +1,29 @@
+---
+title: "<center>Sharif Islam, DBA, CPA, CMA"
+subtitle: "<center>**Assistant Professor <br> School of Accountancy<br> Southern Illinois University Carbondale <br> Carbondale, IL**"
+jupyter: python3
+toc: false 
+image: image/myphoto_SIUC.jpg
+about:
+  template: jolla
+  image-shape: round
+  image-width: 10em
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/sharif-islam-dba-cpa-cma-09345730/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/MSharifIslam2
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/sharif.is
+    - icon: github
+      text: Github
+      href: https://github.com/msharifbd
+    - icon: envelope
+      text: Email
+      href: mailto:mdshariful.islam@siu.edu
+    
+---
+
