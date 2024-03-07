@@ -15,7 +15,4 @@ Good reference to create a website in quarto - <https://ucsb-meds.github.io/cust
 import os
 os.getcwd()
 ```
-```{r}
-getwd()
-```
 
