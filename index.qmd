@@ -4,7 +4,6 @@ subtitle: "<center>**Assistant Professor <br> School of Accountancy<br> Southern
 jupyter: python3
 toc: false 
 image: image/myphoto_SIUC.jpg
-logo: image/siu.png
 about:
   template: jolla
   image-shape: round
