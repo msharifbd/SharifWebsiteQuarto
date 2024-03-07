@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 3b76d5a9-deb5-47e5-9f56-eda74d71ee5a
+      url: 'https://peppy-douhua-6da9a4.netlify.app'

@@ -1,61 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nSharif Islam, DBA, CPA, CMA",
-    "section": "",
-    "text": "(image/siu.png)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n2\n\n\nGood reference to create a website in quarto - https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\nimport os\nos.getcwd()\n\n'C:\\\\Users\\\\mshar\\\\OneDrive - Southern Illinois University\\\\QUARTO\\\\QUARTO_WEBSITE\\\\sharifwebsite_quarto'"
-  },
-  {
-    "objectID": "project.html",
-    "href": "project.html",
-    "title": "Project",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "{length=150%}"
-  },
-  {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "Blogs",
-    "section": "",
-    "text": "Artificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n \n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/Machine Learning in Accounting.html",
-    "href": "posts/Machine Learning in Accounting.html",
-    "title": "Machine Learning in Accounting",
-    "section": "",
-    "text": "About this site\n\nimport matplotlib.pyplot as plt \nimport seaborn as sns\n\nimport sklearn\n\n\nimport os"
-  },
-  {
-    "objectID": "posts/Artifical Intelligence in Accounting.html",
-    "href": "posts/Artifical Intelligence in Accounting.html",
-    "title": "Artificial Intelligence in Accounting",
-    "section": "",
-    "text": "About this site\n\nimport pandas as pd\nimport numpy as np"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "AUDITING (ACCT460)\n\n\nACCOUNTING INFORMATION SYSTEMS (ACCT360)\n\n\nMACHINE LEARNING (BSAN405)"
-  },
-  {
     "objectID": "teaching.html#course-syllabus-1",
     "href": "teaching.html#course-syllabus-1",
     "title": "Teaching",
@@ -68,5 +12,40 @@
     "title": "Teaching",
     "section": "Course Syllabus",
     "text": "Course Syllabus"
+  },
+  {
+    "objectID": "posts/Machine Learning in Accounting.html",
+    "href": "posts/Machine Learning in Accounting.html",
+    "title": "Machine Learning in Accounting",
+    "section": "",
+    "text": "About this site\n\nimport matplotlib.pyplot as plt \nimport seaborn as sns\n\nimport sklearn\n\n\nimport os"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n2\n\n\nGood reference to create a website in quarto - https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\nimport os\nos.getcwd()\n\n'C:\\\\Users\\\\mshar\\\\OneDrive - Southern Illinois University\\\\QUARTO\\\\QUARTO_WEBSITE\\\\sharifwebsite_quarto'"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Artificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Artifical Intelligence in Accounting.html",
+    "href": "posts/Artifical Intelligence in Accounting.html",
+    "title": "Artificial Intelligence in Accounting",
+    "section": "",
+    "text": "About this site\n\nimport pandas as pd\nimport numpy as np"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n2"
   }
 ]
