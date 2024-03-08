@@ -7,7 +7,7 @@ image: image/myphoto_SIUC.jpg
 about:
   template: jolla
   image-shape: round
-  image-width: 10em
+  image-width: 15em
   links: 
     - icon: linkedin
       text: Linkedin

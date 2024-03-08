@@ -7,8 +7,10 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - project.qmd
+      - href: about.qmd
+        text: About
+      - href: project.qmd
+        text: Projects
       - href: resume/Sharif_Resume_R.pdf
         text: Resume
       - href: blogs.qmd
