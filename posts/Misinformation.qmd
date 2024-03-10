@@ -1,5 +1,6 @@
 ---
 title: "Spreading of Misinformation"
+date: today 
 jupyter: python3
 description: "How does Misinformation Spread?"
 ---

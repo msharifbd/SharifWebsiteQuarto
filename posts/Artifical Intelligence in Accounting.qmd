@@ -1,5 +1,6 @@
 ---
 title: "Artificial Intelligence in Accounting"
+date: today
 jupyter: python3
 description: "How is Artificial Intelligence affecting Accounting?"
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Machine Learning in Accounting"
+date: today 
 jupyter: python3
 description: "How does Machine Learning affect Accounting?"
 ---
