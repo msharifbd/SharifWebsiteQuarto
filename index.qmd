@@ -11,7 +11,7 @@ about:
   links: 
     - icon: linkedin
       text: Linkedin
-      href: https://www.linkedin.com/in/sharif-islam-dba-cpa-cma-09345730/
+      href: https://www.linkedin.com/in/sharif-islam-09345730/
     - icon: twitter
       text: Twitter
       href: https://twitter.com/MSharifIslam2
