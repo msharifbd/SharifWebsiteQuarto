@@ -15,5 +15,22 @@
       "/posts_teaching/acct460_auditing.html",
       "/posts_teaching/bsan405_ml.html"
     ]
+  },
+  {
+    "listing": "/project.html",
+    "items": [
+      "/about.html",
+      "/blogs.html",
+      "/books.html",
+      "/index.html",
+      "/posts_teaching/acct360_ais.html",
+      "/posts_teaching/acct460_auditing.html",
+      "/posts_teaching/bsan405_ml.html",
+      "/teaching.html",
+      "/posts/Artifical Intelligence in Accounting.html",
+      "/posts/datamanipulationtyidyverse.html",
+      "/posts/Machine Learning in Accounting.html",
+      "/posts/Misinformation.html"
+    ]
   }
 ]
