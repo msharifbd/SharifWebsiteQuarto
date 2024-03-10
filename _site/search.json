@@ -25,14 +25,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n2\n\n\nGood reference to create a website in quarto - https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide\n\nimport os\nos.getcwd()\n\n'C:\\\\Users\\\\mshar\\\\OneDrive - Southern Illinois University\\\\QUARTO\\\\QUARTO_WEBSITE\\\\sharifwebsite_quarto'"
+    "text": "I am an Assistant Professor in School of Accountancy in College of Business and Analytics in Southern Illinois University Carbondale. My teaching and research interests lie in the intersection between Accounting and Data Science.\n\nEducation\n\nDBA, Major: Computer Information Systems; Minor: Accounting, Louisiana Tech University\nMBA, Major: Accountancy, Eastern Illinois University\nMBA, Major: Accounting & Information Systems, University of Dhaka\nBBA, Major: Accounting & Information Systems, University of Dhaka\n\n\n\nProfessional Certification\n\nCPA, State of Illinois\nCMA, Bangladesh\n\n\n\nResearch Interests\n\nData Breaches\nCybersecurity\nNetwork Centrality of Executives\nInternational Accounting\nAudit Efficiency and Timeliness\n\n\n\nTeaching Interests\n\nAuditing & Assurance Service\nAccounting Information Systems\nData Analytics\nMachine Learning\n\n\n\nHobbies\nI enjoy outdoor activities a lot, specially fishing and hiking in Southern Illinois. I like the outdoors of Southern Illinois."
   },
   {
     "objectID": "blogs.html",
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Artificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Artificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Artifical Intelligence in Accounting.html",
@@ -46,7 +46,7 @@
     "href": "project.html",
     "title": "Project",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
+    "text": "CEO Network Centrality & Audit Timeliness\nThe study examines the association between CEO’s network connections and audit timeliness. Based on extant research, we hypothesize that well-connected CEOs are associated with reduced audit lag. Using a sample of over 2000 firms for the period 2004 to 2017, we find that, ceteris paribus, firms with well-connected CEOs are associated with reduced audit lag. We also find firms led by more connected CEOs have better financial reporting quality and pay higher auditing fees for increased audit efforts. In addition, well-connected CEO firms release 10-K reports in a timelier manner. These findings suggest that improved information environment around well-connected CEOs lead to the timely dissemination of high-quality financial information to market participants.\n\n\nAudit Committee Social Capital & Audit Fees\nThe study examines the effect of audit committees connectedness, measured using network centrality from social network theory, on audit fees. We also test the effect of the same on audit quality and audit timeliness. We find that network centrality measures of audit committees are positively and significantly associated with audit fees. Moreover, we document that audit committees connectedness is associated with better financial reporting quality and audit timeliness, which might explain the increase in audit fees. We conduct several robustness tests and document the same results. Additional analysis indicates that the results are driven by the overall centrality of the audit committee and not by the centrality of committee chairs, committee financial experts, or members of the committee. Our results also hold true for both pre and post SOX period and after controlling for CEO and CFO network centrality measures. Overall, the findings suggest that connected audit committees are associated with higher audit fees because they demand better audit quality and timely dissemination of information.\n\n\nReaction of Rival Firms to the Information Security Breach of Focal Firms: Evidence from Market Activity and Information Asymmetry\nUsing competitive dynamics theory and theory of information transfer, this research examines whether there is a spillover effect from information security breaches of breached firms to those firms’ rivals. The spillover effects on rivals might be - the same as (contagion effect) or opposite (competitive effect) to - those of breached firms. The market reaction of spillover effects is measured from market activity and information asymmetry. The results suggest that the market of rival firms reacts to the breached firms’ experience of data breaches. The overall effects of data breaches on rival firms are the opposite to those to focal firms (competitive effect), although in some cases rival firms also experience negative reactions (contagion effect) in markets. Specifically, the results suggest that the characteristics of data breach types and previous data breach histories of focal firms have negative implications (contagion effect) for rivals. However, strong information technology governance of rivals plays a shielding role in mitigating those negative effects."
   },
   {
     "objectID": "books.html",
@@ -54,5 +54,40 @@
     "title": "Books",
     "section": "",
     "text": "Data Analytics in Accounting\nData analytics is important for accounting profession because data gathering and analytics technologies have the potential to fundamentally change accounting and auditing task processes (Schneider et al. 2015). Scholars note that the emergence of data analytics will significantly change the infer/predict/assure (e.g., insight/foresight/oversight) tasks performed by accountants and auditors. Big data and analytics have increasingly important implications for accounting and will provide the means to improve managerial accounting, financial accounting, and financial reporting practices (Warren Jr, Moffitt, and Byrnes 2015). It is further suggested that big data offers an unprecedented potential for diverse, voluminous datasets and sophisticated analyses. Research indicates that big data has great potential to produce better forecast estimates, going concern calculations, fraud, and other variables that are of concern to both internal and external auditors (Alles 2015). Moreover, auditors might reduce audit costs and enhance profitability and effectiveness by means of big data or data analytics. Sixty-six percent of internal audit departments currently utilize some form of data analytics as part of the audit process (Protiviti 2017).\nLink of the Book Data Analytics in Accounting\n\n\nMachine Learning in Business\nThe book is under development."
+  },
+  {
+    "objectID": "posts_teaching/acct460_auditing.html",
+    "href": "posts_teaching/acct460_auditing.html",
+    "title": "Auditing & Assurance Services",
+    "section": "",
+    "text": "Introduction\n\nimport matplotlib.pyplot as plt \nimport seaborn as sns\n\nimport sklearn\n\n\nimport os\n\n\n\nCourse Syllabus"
+  },
+  {
+    "objectID": "posts/Misinformation.html",
+    "href": "posts/Misinformation.html",
+    "title": "Spreading of Misinformation",
+    "section": "",
+    "text": "Just 12 people are responsible for the majority of COVID-19 conspiracy theories online, study finds. JFK’s anti-vaxxer nephew is one of the ‘disinformation dozen.’"
+  },
+  {
+    "objectID": "posts_teaching/acct360_ais.html",
+    "href": "posts_teaching/acct360_ais.html",
+    "title": "Accounting Information Systems",
+    "section": "",
+    "text": "Introduction\n\nimport matplotlib.pyplot as plt \nimport seaborn as sns\n\nimport sklearn\n\n\nimport os\n\n\n\nCourse Syllabus"
+  },
+  {
+    "objectID": "posts_teaching/bsan405_ml.html",
+    "href": "posts_teaching/bsan405_ml.html",
+    "title": "Machine Learning in Business",
+    "section": "",
+    "text": "Introduction\n\nimport matplotlib.pyplot as plt \nimport seaborn as sns\n\nimport sklearn\n\n\nimport os\n\n\n\nCourse Syllabus"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Accounting Information Systems\n\n\n\n\n\nHow does the AIS Work?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAuditing & Assurance Services\n\n\n\n\n\nHow do the Auditors Work?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMachine Learning in Business\n\n\n\n\n\nHow does Machine Learning Work in Business?\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]

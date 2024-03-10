@@ -3,7 +3,16 @@
     "listing": "/blogs.html",
     "items": [
       "/posts/Artifical Intelligence in Accounting.html",
-      "/posts/Machine Learning in Accounting.html"
+      "/posts/Machine Learning in Accounting.html",
+      "/posts/Misinformation.html"
+    ]
+  },
+  {
+    "listing": "/teaching.html",
+    "items": [
+      "/posts_teaching/acct360_ais.html",
+      "/posts_teaching/acct460_auditing.html",
+      "/posts_teaching/bsan405_ml.html"
     ]
   }
 ]

@@ -3,16 +3,37 @@ title: "About"
 jupyter: python3
 ---
 
-About this site
+I am an Assistant Professor in School of Accountancy in College of Business and Analytics in Southern Illinois University Carbondale. My teaching and research interests lie in the intersection between Accounting and Data Science. 
 
-```{python}
-1 + 1
-```
+# Education 
 
-Good reference to create a website in quarto - <https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide>
+* DBA, Major: Computer Information Systems; Minor: Accounting, Louisiana Tech University
+* MBA, Major: Accountancy, Eastern Illinois University
+* MBA, Major: Accounting & Information Systems, University of Dhaka 
+* BBA, Major: Accounting & Information Systems, University of Dhaka
 
-```{python}
-import os
-os.getcwd()
-```
+# Professional Certification
 
+* CPA, State of Illinois 
+* CMA, Bangladesh 
+
+# Research Interests 
+
+* Data Breaches
+* Cybersecurity
+* Network Centrality of Executives
+* International Accounting
+* Audit Efficiency and Timeliness
+
+
+# Teaching Interests 
+
+* Auditing & Assurance Service 
+* Accounting Information Systems 
+* Data Analytics 
+* Machine Learning 
+
+
+# Hobbies 
+
+I enjoy outdoor activities a lot, specially fishing and hiking in Southern Illinois. I like the outdoors of Southern Illinois. 

@@ -1,0 +1,20 @@
+---
+title: "Accounting Information Systems"
+jupyter: python3
+description: "How does the AIS Work?"
+---
+
+# Introduction 
+
+```{python}
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+import sklearn
+```
+
+```{python}
+import os
+```
+
+# Course Syllabus 

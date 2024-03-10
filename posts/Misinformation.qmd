@@ -1,0 +1,7 @@
+---
+title: "Spreading of Misinformation"
+jupyter: python3
+description: "How does Misinformation Spread?"
+---
+
+[Just 12 people are responsible for the majority of COVID-19 conspiracy theories online, study finds. JFK's anti-vaxxer nephew is one of the 'disinformation dozen.'](https://www.businessinsider.com/12-anti-vaxxers-responsible-for-most-disinformation-online-study-says-2021-7)

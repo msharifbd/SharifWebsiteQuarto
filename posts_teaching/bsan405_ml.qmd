@@ -1,0 +1,20 @@
+---
+title: "Machine Learning in Business"
+jupyter: python3
+description: "How does Machine Learning Work in Business?"
+---
+
+# Introduction 
+
+```{python}
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+import sklearn
+```
+
+```{python}
+import os
+```
+
+# Course Syllabus 

@@ -1,0 +1,20 @@
+---
+title: "Auditing & Assurance Services"
+jupyter: python3
+description: "How do the Auditors Work?"
+---
+
+# Introduction 
+
+```{python}
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+import sklearn
+```
+
+```{python}
+import os
+```
+
+# Course Syllabus 

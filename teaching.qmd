@@ -1,16 +1,15 @@
 ---
 title: "Teaching"
 jupyter: python3
+listing: 
+  contents: posts_teaching
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
 ---
 
-# AUDITING (ACCT460)
 
-## Course Syllabus 
-
-# ACCOUNTING INFORMATION SYSTEMS (ACCT360)
-
-## Course Syllabus
-
-# MACHINE LEARNING (BSAN405)
-
-## Course Syllabus
