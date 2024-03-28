@@ -1,5 +1,6 @@
 ---
 title: "Blogs"
+engine: knitr
 jupyter: python3
 listing: 
   contents: posts
