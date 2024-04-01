@@ -1,8 +1,7 @@
 ---
 title: "Data Manipulation Using Tidyverse"
-date: today
+date: "March 28, 2024"
 engine: knitr
-author: 'Sharif Islam'
 description: "How can Tidyverse be Used for Data Manipulation?"
 format: 
   html: 

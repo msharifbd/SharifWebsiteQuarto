@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning in Accounting"
-date: today 
+date: "February 20, 2024" 
 jupyter: python3
 description: "How does Machine Learning affect Accounting?"
 ---
