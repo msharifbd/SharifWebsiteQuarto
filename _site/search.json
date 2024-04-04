@@ -32,7 +32,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Artifical Intelligence in Accounting.html",
@@ -67,7 +67,7 @@
     "href": "posts/Misinformation.html",
     "title": "Spreading of Misinformation",
     "section": "",
-    "text": "Just 12 people are responsible for the majority of COVID-19 conspiracy theories online, study finds. JFK’s anti-vaxxer nephew is one of the ‘disinformation dozen.’"
+    "text": "Just 12 people are responsible for the majority of COVID-19 conspiracy theories online, study finds. JFK’s anti-vaxxer nephew is one of the ’disinformation dozen."
   },
   {
     "objectID": "posts_teaching/acct360_ais.html",
@@ -88,7 +88,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAccounting Information Systems\n\n\n\n\n\nHow does the AIS Work?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuditing & Assurance Services\n\n\n\n\n\nHow do the Auditors Work?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Business\n\n\n\n\n\nHow does Machine Learning Work in Business?\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nAccounting Information Systems\n\n\n\n\n\nHow does the AIS Work?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAuditing & Assurance Services\n\n\n\n\n\nHow do the Auditors Work?\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMachine Learning in Business\n\n\n\n\n\nHow does Machine Learning Work in Business?\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/datamanipulationtyidyverse.html",
@@ -96,5 +96,12 @@
     "title": "Data Manipulation Using Tidyverse",
     "section": "",
     "text": "Importing Necessary Packages\n\nlibrary(tidyverse)\nlibrary (janitor)\nlibrary (lubridate)\n\n\n\nImporting Datasets\n\niris %&gt;% \n  as_tibble() %&gt;% \n  glimpse()\n\nRows: 150\nColumns: 5\n$ Sepal.Length &lt;dbl&gt; 5.1, 4.9, 4.7, 4.6, 5.0, 5.4, 4.6, 5.0, 4.4, 4.9, 5.4, 4.…\n$ Sepal.Width  &lt;dbl&gt; 3.5, 3.0, 3.2, 3.1, 3.6, 3.9, 3.4, 3.4, 2.9, 3.1, 3.7, 3.…\n$ Petal.Length &lt;dbl&gt; 1.4, 1.4, 1.3, 1.5, 1.4, 1.7, 1.4, 1.5, 1.4, 1.5, 1.5, 1.…\n$ Petal.Width  &lt;dbl&gt; 0.2, 0.2, 0.2, 0.2, 0.2, 0.4, 0.3, 0.2, 0.2, 0.1, 0.2, 0.…\n$ Species      &lt;fct&gt; setosa, setosa, setosa, setosa, setosa, setosa, setosa, s…"
+  },
+  {
+    "objectID": "posts/Research_in_accountng_finance.html",
+    "href": "posts/Research_in_accountng_finance.html",
+    "title": "Empirical Research in Accounting & Finance",
+    "section": "",
+    "text": "Some Good Books to Learn Research Methodologies in Accounting & Finance -\n\nEmpirical Research in Accounting: Tools and Methods\nTidy Finance with R\nTidy Finance with Python"
   }
 ]
