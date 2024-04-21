@@ -1,0 +1,10 @@
+---
+title: "Polars- A Python Library for Data Analytics"
+date: "April 20, 2024" 
+jupyter: python3
+description: "Polars - An Alternative to Pandas "
+---
+
+`polars` library - An alternative to `pandas` library in `Python`.
+
+01. [Polars Cookbook](https://github.com/PacktPublishing/Polars-Cookbook)

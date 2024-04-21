@@ -32,7 +32,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolars- A Python Library for Data Analytics\n\n\n\n\n\nPolars - An Alternative to Pandas \n\n\n\n\n\nApr 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Artifical Intelligence in Accounting.html",
@@ -103,5 +103,12 @@
     "title": "Empirical Research in Accounting & Finance",
     "section": "",
     "text": "Some Good Books to Learn Research Methodologies in Accounting & Finance -\n\nEmpirical Research in Accounting: Tools and Methods\nTidy Finance with R\nTidy Finance with Python"
+  },
+  {
+    "objectID": "posts/Polars-python-data-library.html",
+    "href": "posts/Polars-python-data-library.html",
+    "title": "Polars- A Python Library for Data Analytics",
+    "section": "",
+    "text": "polars library - An alternative to pandas library in Python.\n\nPolars Cookbook"
   }
 ]
