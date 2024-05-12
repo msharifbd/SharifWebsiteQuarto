@@ -32,7 +32,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolars- A Python Library for Data Analytics\n\n\n\n\n\nPolars - An Alternative to Pandas \n\n\n\n\n\nApr 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolars- A Python Library for Data Analytics\n\n\n\n\n\nPolars - An Alternative to Pandas \n\n\n\n\n\nApr 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Data from WRDS and Saving the Data into Local PostgreSQL Database\n\n\n\n\n\nHow to Extract Data from WRDS Database and Save the Data in Your Local Database Using RStudio and PostgreSQL\n\n\n\n\n\nMay 12, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Artifical Intelligence in Accounting.html",
@@ -110,5 +110,19 @@
     "title": "Polars- A Python Library for Data Analytics",
     "section": "",
     "text": "polars library - An alternative to pandas library in Python.\n\nPolars Cookbook"
+  },
+  {
+    "objectID": "posts/WRDS_to_local_POSTGRESQL.html",
+    "href": "posts/WRDS_to_local_POSTGRESQL.html",
+    "title": "Extracting Data from WRDS and Saving the Data into Local PostgreSQL Database",
+    "section": "",
+    "text": "WRDS is a widely used database by Accounting & Finance researchers and professionals all over the world. Using RStudio to pull data from WRDS is a convenient and effective data management approach. Further, the collected data from WRDS can easily be saved in a local database in your computer. The local database can be created by using PostgreSQL.\nBefore you start the process, please import the following libraries in your RStudio -\n\nlibrary(tidyverse)\nlibrary(DBI)\nlibrary(RPostgres)"
+  },
+  {
+    "objectID": "posts/WRDS_to_local_POSTGRESQL.html#how-to-set-up-pgpass.conf-file-in-your-machine",
+    "href": "posts/WRDS_to_local_POSTGRESQL.html#how-to-set-up-pgpass.conf-file-in-your-machine",
+    "title": "Extracting Data from WRDS and Saving the Data into Local PostgreSQL Database",
+    "section": "3.1 How to Set Up Pgpass.conf file in Your Machine",
+    "text": "3.1 How to Set Up Pgpass.conf file in Your Machine\nOn Windows, the Postgres Password file is named pgpass.conf, and is located in your %APPDATA% directory. It is a hidden directory. It can be accessed by typing %APPDATA% in your Windows Explorer Address bar. Within that directory, create a new folder called ‘postgreSQL’ and then open it. Finally create a new file within this directory called ‘pgpass.conf’ using a plaintext editors such as NotePad++. Please note that NotePad (without ++), WordPad, and MS Word are not plaintext editors. Please do not use them for this step. The full path to the file should therefore be -\n%APPDATA%\\postgresql\\pgpass.conf\nPlease note that %APPDATA% may expand to something similar to this -\nC:\\Users\\USERNAME\\AppData\\Roaming\\postgresql\\pgpass.conf\nPlace the following line into the new pgpass.conf file and save it -\nwrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password\nwhere ‘wrds_username’ is your WRDS username and ‘wrds_password’ is your WRDS password.\nPlease note that your password contains either a colon (:) or a backslash (\\), you will need to escape those characters with a backslash:\\\nBefore you go to the next step. Please restart the R Session.\n\nRun the following line of code to get your RStudio connected to WRDS -\n\n\n######################################################\n# Connecting to WRDS Database\n#######################################################\npg &lt;- dbConnect(RPostgres::Postgres(), bigint = \"integer\")"
   }
 ]

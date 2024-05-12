@@ -1,0 +1,196 @@
+---
+title: "Extracting Data from WRDS and Saving the Data into Local PostgreSQL Database"
+date: "May 12, 2024" 
+number-depth: 3
+number-sections: true
+engine: knitr
+description: "How to Extract Data from WRDS Database and Save the Data in Your Local Database Using RStudio and PostgreSQL"
+---
+
+# Introduction 
+
+`WRDS` is a widely used database by Accounting & Finance researchers and professionals all over the world. Using `RStudio` to pull data from `WRDS` is a convenient and effective data management approach. Further, the collected data from `WRDS` can easily be saved in a local database in your computer. The local database can be created by using `PostgreSQL`. 
+
+Before you start the process, please import the following libraries in your RStudio - 
+
+```{r}
+#| eval: false
+
+library(tidyverse)
+library(DBI)
+library(RPostgres)
+```
+
+
+# Installing PostgreSQL in Your Machine {#sec-yourpassword} 
+
+To install the PostgreSQL database in your personal computer (windows), you can follow the steps described [here](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/).
+
+Then connect to your local PostgreSQL database as described [here](https://www.tutorialsteacher.com/postgresql/connect-to-postgresql-database). Once you are connected to your local PostgreSQL database, then create a database called `wrds` following the description [here](https://www.tutorialsteacher.com/postgresql/create-database). 
+
+
+
+
+# Connecting RStudio to the WRDS Database 
+
+The following steps can be used to connect `RStudio` to the `WRDS`. My assumption here is that you have already installed `RStudio` in your machine and know how to use `R` and `RStudio` for data analysis purposes. 
+
+01. Open the .Renviron file by running the following code
+
+```{r}
+#| eval: false
+usethis::edit_r_environ("project")
+```
+
+Or run the following to get the environment file
+
+```{r}
+#| eval: false
+file.edit(".Renviron")
+```
+
+02. Add the following code in the .Renviron file 
+
+```{r}
+#| eval: false
+PGHOST = "wrds-pgdata.wharton.upenn.edu"
+PGPORT = 9737
+PGDATABASE = "wrds"
+PGUSER = "your_WRDS_ID"
+# PGPASSWORD ="your_WRDS_password" (This is not included)
+```
+
+Please note that replace PGUSER with your user ID in wrds and PGPASSWORD with your password. 
+However, it is recommended to not use PGPASSWORD in your code file because other people then might have access to your log in credentials. Therefore, the best practice is to save the password of WRDS credentials in a file called 'pgpass.conf' file.
+
+## How to Set Up Pgpass.conf file in Your Machine 
+
+On Windows, the Postgres Password file is named pgpass.conf, and is located in your `%APPDATA%` directory. It is a hidden directory. It can be accessed by typing `%APPDATA%` in your Windows Explorer Address bar. Within that directory, create a new folder called 'postgreSQL' and then open it. Finally create a new file within this directory called 'pgpass.conf' using a plaintext editors such as `NotePad++`. Please note that NotePad (without ++), WordPad, and MS Word are not plaintext editors. Please do not use them for this step. The full path to the file should therefore be - 
+
+`%APPDATA%\postgresql\pgpass.conf`
+
+Please note that `%APPDATA%` may expand to something similar to this - 
+
+`C:\Users\USERNAME\AppData\Roaming\postgresql\pgpass.conf`
+
+Place the following line into the new pgpass.conf file and save it - 
+
+`wrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password`
+
+where 'wrds_username' is your WRDS username and 'wrds_password' is your WRDS password.
+
+Please note that your password contains either a colon (:) or a backslash (\\), you will need to escape those characters with a backslash:\\
+
+Before you go to the next step. Please restart the R Session.
+
+03. Run the following line of code to get your RStudio connected to WRDS - 
+
+```{r}
+#| eval: false
+
+######################################################
+# Connecting to WRDS Database
+#######################################################
+pg <- dbConnect(RPostgres::Postgres(), bigint = "integer")
+```
+
+
+
+# Pulling Data from WRDS
+
+Now you are connected (Specifically your RStuido) to WRDS and therefore can start importing data from WRDS to your RStudio. Before, you do so, you can check all the schemas available in WRDS by running the following code -  
+
+```{r}
+#| eval: false
+
+#########################################################
+# Getting the Names of all Schemas (libraries)
+#########################################################
+
+schemas_all = dbGetQuery(pg, "SELECT nspname FROM pg_catalog.pg_namespace")
+
+```
+
+
+You can also check the available tables in a given schema (library). Below we run code to see all available tables under a given schema - for example - audit
+
+```{r}
+#| eval: false
+
+#########################################################
+# Getting the Names of all Tables under a given Schema (library) for example audit 
+#########################################################
+
+schema_audit <- pg %>%
+  DBI::dbListObjects(DBI::Id(schema = 'audit')) %>%
+  dplyr::pull(table) %>%
+  purrr::map(~slot(.x, 'name')) %>%
+  dplyr::bind_rows()
+```
+
+Now you can easily extract data from a table of a schema. For example, below we extract audit fee data from table 'feed03_audit_fees' of the 'audit' schema.
+
+```{r}
+#| eval: false
+#########################################################
+# Extracting some data from WRDS Using given Schemas and Tables
+#########################################################
+audfee = tbl (pg, Id(schema = "audit", table = "feed03_audit_fees")) 
+audfee_df = audfee %>% collect()
+```
+
+Note that you do not need pull the whole table as I did above. You can run your code backend on the WRDS PostgreSQL server and pull the data that is necessary for your analysis. 
+
+
+# Connecting to a Local PostgreSQL Database from RStudio
+
+```{r}
+#| eval: false
+
+######################################################
+# Connecting to Local PostgreSQL WRDS Database
+#######################################################
+
+pg_local = dbConnect(RPostgres::Postgres()
+                     , host='localhost'
+                     , port='5433'
+                     , dbname='wrds'
+                     , user='postgres'
+                     , password="YOURPASSWORD")
+```
+
+please replace '5433' with your port number and 'YOURPASSWORD' with your password you used when you created the local PostgreSQL database in @sec-yourpassword.
+
+You can also check whether you have any tables available in your local PostgreSQL database by running the following code - 
+
+```{r}
+#| eval: false
+
+######################################################
+# Checking all Tables in the Database 
+######################################################
+
+dbListTables(pg_local)
+```
+
+# Sending the Collected Data from RStudio to Local PostgreSQL Database
+
+```{r}
+#| eval: false
+
+######################################################
+# Sending a dataframe to Local PostgreSQL WRDS Database
+#######################################################
+
+dbWriteTable(pg_local, name = 'audfee_df', audfee_df)
+```
+
+# Retrieving the Saved Data from Local PostgreSQL Database
+
+```{r}
+#| eval: false
+
+audfee_local = tbl(pg_local, 'audfee_df')
+```
+
+# Conclusion 
