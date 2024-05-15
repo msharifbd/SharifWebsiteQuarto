@@ -32,7 +32,7 @@
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolars- A Python Library for Data Analytics\n\n\n\n\n\nPolars - An Alternative to Pandas \n\n\n\n\n\nApr 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Data from WRDS and Saving the Data into Local PostgreSQL Database\n\n\n\n\n\nHow to Extract Data from WRDS Database and Save the Data in Your Local Database Using RStudio and PostgreSQL\n\n\n\n\n\nMay 12, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nUsing Arrow & DuckDB to Handle Large Data\n\n\n\n\n\nHow to Use Arrow & DuckDB in RStudio\n\n\n\n\n\nMay 14, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nArtificial Intelligence in Accounting\n\n\n\n\n\nHow is Artificial Intelligence affecting Accounting?\n\n\n\n\n\nMar 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nData Manipulation Using Tidyverse\n\n\n\n\n\nHow can Tidyverse be Used for Data Manipulation?\n\n\n\n\n\nMar 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow Hackers Stole $81 Million from Bangaldesh Central Bank\n\n\n\n\n\nHow does Hacking Work?\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning in Accounting\n\n\n\n\n\nHow does Machine Learning affect Accounting?\n\n\n\n\n\nFeb 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpreading of Misinformation\n\n\n\n\n\nHow does Misinformation Spread?\n\n\n\n\n\nJan 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPolars- A Python Library for Data Analytics\n\n\n\n\n\nPolars - An Alternative to Pandas \n\n\n\n\n\nApr 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nEmpirical Research in Accounting & Finance\n\n\n\n\n\nFree Books for Empirical Research in Accounting & Finance\n\n\n\n\n\nApr 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nExtracting Data from WRDS and Saving the Data into Local PostgreSQL Database\n\n\n\n\n\nHow to Extract Data from WRDS Database and Save the Data in Your Local Database Using RStudio and PostgreSQL\n\n\n\n\n\nMay 12, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/Artifical Intelligence in Accounting.html",
@@ -124,5 +124,47 @@
     "title": "Extracting Data from WRDS and Saving the Data into Local PostgreSQL Database",
     "section": "3.1 How to Set Up Pgpass.conf file in Your Machine",
     "text": "3.1 How to Set Up Pgpass.conf file in Your Machine\nOn Windows, the Postgres Password file is named pgpass.conf, and is located in your %APPDATA% directory. It is a hidden directory. It can be accessed by typing %APPDATA% in your Windows Explorer Address bar. Within that directory, create a new folder called ‘postgreSQL’ and then open it. Finally create a new file within this directory called ‘pgpass.conf’ using a plaintext editors such as NotePad++. Please note that NotePad (without ++), WordPad, and MS Word are not plaintext editors. Please do not use them for this step. The full path to the file should therefore be -\n%APPDATA%\\postgresql\\pgpass.conf\nPlease note that %APPDATA% may expand to something similar to this -\nC:\\Users\\USERNAME\\AppData\\Roaming\\postgresql\\pgpass.conf\nPlace the following line into the new pgpass.conf file and save it -\nwrds-pgdata.wharton.upenn.edu:9737:wrds:wrds_username:wrds_password\nwhere ‘wrds_username’ is your WRDS username and ‘wrds_password’ is your WRDS password.\nPlease note that your password contains either a colon (:) or a backslash (\\), you will need to escape those characters with a backslash:\\\nBefore you go to the next step. Please restart the R Session.\n\nRun the following line of code to get your RStudio connected to WRDS -\n\n\n######################################################\n# Connecting to WRDS Database\n#######################################################\npg &lt;- dbConnect(RPostgres::Postgres(), bigint = \"integer\")"
+  },
+  {
+    "objectID": "posts/Arrow_DuckDB_Large_data.html",
+    "href": "posts/Arrow_DuckDB_Large_data.html",
+    "title": "Using Arrow & DuckDB to Handle Large Data",
+    "section": "",
+    "text": "Many times, we deal with large datasets such that the memory (e.g., RAM) of the machine is not enough to load or analyze the data. In such circumstances, using a database like PostgreSQL comes very handy (One can go over here to learn how to set up a PostgreSQL server). However, using a database requires knowledge of setting up database server and SQL and many people are not familiar with those kinds of knowledge. In such circumstance, using Arrow and DuckDB could be very much helpful to derive the benefits of a database."
+  },
+  {
+    "objectID": "posts/Arrow_DuckDB_Large_data.html#loading-necessary-r-packages",
+    "href": "posts/Arrow_DuckDB_Large_data.html#loading-necessary-r-packages",
+    "title": "Using Arrow & DuckDB to Handle Large Data",
+    "section": "4.1 Loading Necessary R Packages",
+    "text": "4.1 Loading Necessary R Packages\n\n# Loading or installing necessary packages \n#install.packages('arrow')\nlibrary(arrow)\n#install.packages('duckdb')\nlibrary(duckdb)\nlibrary(DBI)\nlibrary(dbplyr)\nlibrary(fs)\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "posts/Arrow_DuckDB_Large_data.html#covering-the-big-data-files-into-arrow-object",
+    "href": "posts/Arrow_DuckDB_Large_data.html#covering-the-big-data-files-into-arrow-object",
+    "title": "Using Arrow & DuckDB to Handle Large Data",
+    "section": "4.2 Covering the Big Data Files into Arrow Object",
+    "text": "4.2 Covering the Big Data Files into Arrow Object\n\n#####################################################\n# Arrow Object \n######################################################\ndf_arrow = arrow::open_dataset(\"path_to_the_file/name_of_the_file.csv\",\n                               format = 'csv',\n                               col_types = schema(year = as.numeric())\n                               )\n\ndf_arrow %&gt;% object.size()\n\ndf_arrow %&gt;% glimpse()"
+  },
+  {
+    "objectID": "posts/Arrow_DuckDB_Large_data.html#sending-the-arrow-object-to-duckdb-database",
+    "href": "posts/Arrow_DuckDB_Large_data.html#sending-the-arrow-object-to-duckdb-database",
+    "title": "Using Arrow & DuckDB to Handle Large Data",
+    "section": "4.3 Sending the Arrow Object to DuckDB Database",
+    "text": "4.3 Sending the Arrow Object to DuckDB Database\n\n#####################################################\n# Using duckdb with arrow\n#####################################################\n\n# Create Directory \nduckdb_dir &lt;- path(here::here('DATA'), \"duckdb_df\")\nif (!dir.exists(duckdb_dir)) {\n  dir.create(duckdb_dir)\n}\n\n# Create Connection on DuckDB\ncon_duckdb &lt;- dbConnect(\n  drv = duckdb(),\n  dbdir = path(duckdb_dir, \"duckdb.ddb\")\n)\n\n# Sending Arrow Object in DuckDB Database\ncon_duckdb %&gt;% \n  dbWriteTable(\"name_of_the_table_in_duckdb\", collect(df_arrow), overwrite = TRUE)\n\n## TO see all schemas in the Connection\nDBI::dbListObjects(con_duckdb)"
+  },
+  {
+    "objectID": "posts/Arrow_DuckDB_Large_data.html#manipulating-extracting-data-from-duckdb-database",
+    "href": "posts/Arrow_DuckDB_Large_data.html#manipulating-extracting-data-from-duckdb-database",
+    "title": "Using Arrow & DuckDB to Handle Large Data",
+    "section": "4.4 Manipulating (Extracting) Data from DuckDB Database",
+    "text": "4.4 Manipulating (Extracting) Data from DuckDB Database\n\ndf_duckdb = con_duckdb %&gt;% \n  tbl(\"name_of_the_table_in_duckdb\")\n\ndf_duckdb %&gt;% \n  glimpse()\n\ndf_duckdb %&gt;% \n  count() %&gt;% \n  pull() # 30,623,729 Observations \n\n\n\ndf_duckdb %&gt;% \n  select(year, cusip, ticker) %&gt;% \n  filter(year %in% 2005:2022) %&gt;% \n  filter(ticker == 'CBA') %&gt;% \n  collect()"
+  },
+  {
+    "objectID": "posts/Arrow_DuckDB_Large_data.html#converting-the-big-data-files-into-arrow-object",
+    "href": "posts/Arrow_DuckDB_Large_data.html#converting-the-big-data-files-into-arrow-object",
+    "title": "Using Arrow & DuckDB to Handle Large Data",
+    "section": "4.2 Converting the Big Data Files into Arrow Object",
+    "text": "4.2 Converting the Big Data Files into Arrow Object\n\n#####################################################\n# Arrow Object \n######################################################\ndf_arrow = arrow::open_dataset(\"path_to_the_file/name_of_the_file.csv\",\n                               format = 'csv',\n                               col_types = schema(year = as.numeric())\n                               )\n\ndf_arrow %&gt;% object.size()\n\ndf_arrow %&gt;% glimpse()"
   }
 ]
