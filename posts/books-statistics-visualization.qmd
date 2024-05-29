@@ -1,0 +1,17 @@
+---
+title: "Some Good Books on Statistics, Data Visualizations, and Modeling"
+date: "May 29, 2024" 
+jupyter: python3
+description: "Books on Statistics, Visualizations, and Modeling"
+---
+
+Some Good Books to Learn Statistics, Data Visualizations, and Modeling - 
+
+01. [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+
+02. [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+
+03. [Tidy Modeling with R](https://www.tmwr.org/)
+
+04. [Python for Data Science](https://aeturrell.github.io/python4DS/welcome.html)
+
