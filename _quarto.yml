@@ -30,7 +30,7 @@ website:
 
 format:
   html:
-    theme: cyborg
+    theme: superhero
     css: styles.css
     toc: true
     mainfont: serif
