@@ -1,6 +1,6 @@
 ---
 title: "Empirical Research in Accounting & Finance"
-date: "April 03, 2024" 
+date: "July 09, 2024" 
 jupyter: python3
 description: "Free Books for Empirical Research in Accounting & Finance"
 ---
@@ -12,4 +12,6 @@ Some Good Books to Learn Research Methodologies in Accounting & Finance -
 02. [Tidy Finance with R](https://www.tidy-finance.org/r/)
 
 03. [Tidy Finance with Python](https://www.tidy-finance.org/python/)
+
+04. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
 
