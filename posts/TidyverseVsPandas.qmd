@@ -1,0 +1,10 @@
+---
+title: "Discomfort of Using pandas for tidyverse Users"
+date: "November 17, 2024" 
+jupyter: python3
+description: "Why do using pandas feel so clunky for R users"
+---
+
+Data scientists or data enthusiasts who use R, particularly `tidyverse` package, for data wrangling find it very awkward when they start using `pandas` module of python for data wrangling. The below article nicely enumerates some subtle difference between tidyverse and pandas, which might be useful for people who move from R to Python. 
+
+[Why Pandas Feels Clunky When Coming from R](https://www.sumsar.net/blog/pandas-feels-clunky-when-coming-from-r/)
