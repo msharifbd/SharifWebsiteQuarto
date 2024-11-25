@@ -1,0 +1,262 @@
+---
+title: "How ChatGPT is Affecting Companies"
+date: "November 24, 2024"
+engine: knitr
+description: "How is ChatGPT Affecting Companies' Performance?"
+execute: 
+  message: false 
+  warning: false 
+format: 
+  html: 
+    toc: true
+---
+
+# Chegg and Nvidia
+
+## Who is Chegg? 
+
+Chegg, Inc. is an American education technology company based in Santa Clara, California. Founded in 2005, Chegg started as a textbook rental service and has since evolved into a comprehensive education platform. The company's mission is to improve learning and learning outcomes by putting students first, supporting lifelong learners from their academic journey through their careers.
+
+### Business Model
+
+Chegg operates on a multifaceted business model designed to address the diverse needs of students. Its primary revenue streams include:
+
+1. **Subscription Services**: Chegg offers various subscription plans that provide users with access to educational resources. These plans include:
+
+  * **Chegg Study**: Provides step-by-step textbook solutions, expert Q&A, and access to a vast library of study guides.
+
+  * **Chegg Tutors**: Connects students with tutors for one-on-one assistance in various subjects.
+
+  * **Chegg Writing**: Offers tools for grammar checks, plagiarism detection, and citation assistance.
+
+  * **Chegg Math Solver**: Provides step-by-step solutions to math problems.
+
+  * **Busuu**: A language learning platform offering self-paced lessons and live classes with expert tutors.
+
+
+2. **Textbook Rentals and Sales**: Chegg continues to offer digital and physical textbook rentals and sales, providing affordable options for students.
+
+3. **Career Services**: Chegg offers resources to help students find internships and prepare for their careers.
+
+4. **Advertising and Partnerships**: Chegg leverages its platform to offer marketing services to large consumer product companies, providing tailored marketing campaigns based on its vast access to data.
+
+### Products
+
+Chegg's product offerings include:
+
+  * **Chegg Study Pack**: A premium subscription bundle that includes Chegg Study, Chegg Writing, and Chegg Math services.
+
+  * **Chegg Study**: Helps students master challenging concepts through expert Q&A and textbook solutions.
+
+  * **Chegg Writing**: Provides tools for plagiarism detection, grammar checking, and citation generation.
+
+  * **Chegg Math Solver**: Offers step-by-step solutions to math problems.
+
+  * **Busuu**: A comprehensive language learning platform.
+
+  * **Textbook Rentals and Sales**: Digital and physical textbook rentals and sales.
+
+### Business Strategy
+
+Chegg's business strategy focuses on leveraging technology to provide affordable and accessible educational resources. Key elements of their strategy include:
+
+  * **Platform Strategy**: Combining hardware, software, algorithms, and services to create comprehensive solutions for their customers.
+
+  * **Innovation**: Continuously investing in research and development to push the boundaries of education technology.
+
+  * **Strategic Partnerships**: Collaborating with major technology companies, cloud service providers, and industry leaders to expand their reach and enhance their offerings.
+
+  * **Market Diversification**: Targeting various high-growth markets such as gaming, data centers, professional visualization, and automotive to ensure a diversified revenue stream.
+
+Chegg has positioned itself as a leader in the education technology space by continuously adapting to the needs of students and leveraging data to improve its services. The company's focus on providing comprehensive, affordable, and accessible educational resources has helped it grow and maintain a strong market presence
+ 
+
+
+## Who is Nvidia? 
+
+NVIDIA Corporation is a leading American technology company based in Santa Clara, California. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, NVIDIA is renowned for its pioneering work in graphics processing units (GPUs) and artificial intelligence (AI) technology. The company's innovations have significantly impacted various industries, including gaming, data centers, automotive, and professional visualization.
+
+### Business Model
+
+NVIDIA's business model revolves around developing and selling high-performance processors and related technologies. The company's primary revenue streams include:
+
+  * **Gaming**: NVIDIA's GeForce GPUs are widely used by gamers for their high performance and advanced graphics capabilities. The company also offers gaming laptops, desktops, and accessories.
+
+  * **Data Centers**: NVIDIA provides data center solutions with their Tesla and A100 GPUs, designed for high-performance computing, AI, and deep learning applications.
+
+  * **Professional Visualization**: NVIDIA's Quadro GPUs are used in workstations for applications in architecture, engineering, media, and entertainment.
+
+  * **Automotive**: NVIDIA's DRIVE platform offers AI-based solutions for autonomous vehicles, including hardware and software for self-driving cars.
+
+  * **OEM & IP**: NVIDIA licenses its GPU technology to other companies and provides custom solutions for various industries.
+
+### Products
+
+NVIDIA offers a wide range of products designed to meet the needs of different markets:
+
+  * **GeForce GPUs**: High-performance graphics cards for gaming and creative applications.
+
+  * **NVIDIA RTX**: Advanced GPUs for real-time ray tracing and AI-enhanced graphics.
+
+  * **NVIDIA DRIVE**: AI-based solutions for autonomous vehicles.
+
+  * **NVIDIA Jetson**: AI platforms for robotics and embedded systems.
+
+  * **NVIDIA DGX**: Systems for AI research and development.
+
+  * **NVIDIA Omniverse**: A platform for collaborative 3D design and simulation.
+
+### Business Strategy
+
+NVIDIA's business strategy focuses on leveraging its GPU technology to address multiple high-growth markets. Key elements of their strategy include:
+
+  * **Platform Strategy**: NVIDIA combines hardware, software, algorithms, and services to create comprehensive solutions for their customers.
+
+  * **Innovation**: NVIDIA continuously invests in research and development to push the boundaries of GPU and AI technology.
+
+  * **Strategic Partnerships**: NVIDIA collaborates with major technology companies, cloud service providers, and industry leaders to expand their reach and enhance their offerings.
+
+  * **Market Diversification**: By targeting various high-growth markets such as gaming, data centers, professional visualization, and automotive, NVIDIA ensures a diversified revenue stream and reduces dependency on any single market.
+
+NVIDIA has established itself as a dominant player in the GPU and AI markets. Their focus on innovation, strategic partnerships, and market diversification has enabled them to achieve significant growth and maintain a strong market position.
+
+
+
+:::{.panel-tabset}
+
+## R
+
+```{r}
+#| message: false
+#| warning: false
+#| code-fold: true 
+
+library(tidyverse)
+library(tidyquant)
+```
+
+```{r}
+#| message: false
+#| warning: false
+#| fig-width: 12
+#| fig-height: 6
+#| code-fold: true
+
+# Define the stock symbols
+symbols <- c("CHGG", "NVDA")
+
+# Set the date range for the last five years
+start_date <- Sys.Date() - 5*365 # 2019-11-26
+end_date <- Sys.Date() # 2024-11-24
+
+# Get the stock data
+#getSymbols(symbols, src = "yahoo", from = start_date, to = end_date, auto.assign = TRUE)
+
+# Extract the adjusted closing prices and convert to a data frame
+
+prices <- tq_get(symbols,
+                 from = start_date,
+                 to = end_date,
+                 get = "stock.prices")
+
+# Plot the data using ggplot2
+
+prices %>%
+  ggplot(aes(x = date, y = adjusted, color = symbol)) +
+  geom_line() +
+  labs(title = "Chegg vs Nvidia Share Prices (2019-2024)",
+       x = "Date",
+       y = "Adjusted Price",
+       color = "symbol") +
+  theme_minimal() + 
+  geom_vline(xintercept = as.numeric(as.Date("2022-11-30")), 
+             color = "black", linetype = "dashed", size = 0.8) + 
+  annotate(x = ymd("2022-11-30"), y = +Inf,
+           label = "ChatGPT Release", vjust = 2, geom = "label")+
+  theme(legend.position = "right",
+        legend.title = element_blank(),
+        plot.title = element_text(hjust = 0.50))
+
+
+```
+
+
+## Python 
+
+```{r}
+#| include: false
+
+library(reticulate)
+# Use Python below does not work 
+#use_python("C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+py_config()
+```
+
+```{python}
+#| message: false
+#| warning: false
+#| code-fold: true
+
+
+##########################################################
+## Using Seaborn 
+###########################################################
+import yfinance as yf
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import os
+import contextlib
+
+
+# Define the stock tickers
+tickers = ['CHGG', 'NVDA']
+
+# Fetch the historical data for the last 5 years
+#data = yf.download(tickers, start='2019-11-26', end='2024-11-24')['Adj Close']
+
+# Suppress messages and warnings 
+with contextlib.redirect_stdout(open(os.devnull, 'w')), contextlib.redirect_stderr(open(os.devnull, 'w')): 
+  # Fetch the historical data for the last 5 years 
+  data = yf.download(tickers, start='2019-11-26', end='2024-11-24')['Adj Close']
+
+
+# Convert the index to datetime format if it's not already
+data.index = pd.to_datetime(data.index)
+
+# Reset the index to use it in Seaborn
+data = data.reset_index()
+
+# Melt the data for Seaborn
+data_melted = data.melt('Date', var_name='Ticker', value_name='Price')
+
+# Plot the data using Seaborn
+plt.figure(figsize=(16, 8))
+sns.lineplot(data=data_melted, x='Date', y='Price', hue='Ticker')
+
+# Add a vertical line for the date 2023-11-30
+line_date = pd.to_datetime('2022-11-30')
+plt.axvline(line_date, color='red', linestyle='--')
+
+# Add a label directly on the vertical line
+plt.text(line_date, plt.ylim()[1], 'ChatGPT Release', color='red', ha='center', va='bottom', fontsize='large')
+
+# Add the legend at the bottom with a smaller font size and move it further down
+#plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=2, fontsize='large')
+
+plt.legend(loc='center left', bbox_to_anchor=(1, 0.5), ncol=1
+, fontsize='large')
+
+
+# Set the title with a smaller font size, center it, and move it up
+plt.title('Chegg vs Nvidia Share Price (2019-2024)' , fontsize='large'
+, loc='center', pad=20)
+
+plt.xlabel('Date')
+plt.ylabel('Adjusted Price')
+plt.grid(True)
+plt.show()
+```
+
+:::
