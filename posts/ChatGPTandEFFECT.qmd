@@ -121,6 +121,10 @@ NVIDIA's business strategy focuses on leveraging its GPU technology to address m
 NVIDIA has established itself as a dominant player in the GPU and AI markets. Their focus on innovation, strategic partnerships, and market diversification has enabled them to achieve significant growth and maintain a strong market position.
 
 
+# Share Price of Chegg and Nvidia ater the Release of ChatGPT
+
+ChaptGPT was released on November 30, 2022. Here I compare the share price of Nvidia and Chegg for five years, which cover some period before the release of ChatGPT and some period after the release of ChatGPT. 
+
 
 :::{.panel-tabset}
 
