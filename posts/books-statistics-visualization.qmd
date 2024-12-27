@@ -5,7 +5,7 @@ jupyter: python3
 description: "Books on Statistics, Visualizations, and Modeling"
 ---
 
-Some Good Books to Learn Statistics, Data Visualizations, and Modeling - 
+Some Good Books to Learn Statistics, Data Visualizations, Modeling, and Development of Data Science Projects - 
 
 01. [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
 
@@ -16,4 +16,12 @@ Some Good Books to Learn Statistics, Data Visualizations, and Modeling -
 04. [Python for Data Science](https://aeturrell.github.io/python4DS/welcome.html)
 
 05. [A Practical Guide to Macroeconomic Data with R and Python](https://quantamental-python.com/)
+
+06. [STAT 545](https://stat545.com/)
+
+07. [STAT 545 @UBC](https://stat545.stat.ubc.ca/)
+
+08. [DevOps for Data Science](https://do4ds.com/)
+
+09. [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 
