@@ -25,3 +25,7 @@ Some Good Books to Learn Statistics, Data Visualizations, Modeling, and Developm
 
 09. [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 
+10. [R for Data Science](https://r4ds.hadley.nz/)
+
+11. [Python for Data Analysis](https://wesmckinney.com/book/)
+

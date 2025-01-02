@@ -1,8 +1,18 @@
 ---
 title: "Machine Learning in Business"
-jupyter: python3
+engine: knitr
 description: "How does Machine Learning Work in Business?"
 ---
+```{r}
+#| include: false
+
+library(reticulate)
+# Use Python below does not work 
+#use_python("C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+py_config()
+```
+
 
 # Introduction 
 

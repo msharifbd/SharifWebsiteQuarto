@@ -5,16 +5,7 @@ jupyter: python3
 description: "How does Machine Learning affect Accounting?"
 ---
 
-About this site
 
-```{python}
-import matplotlib.pyplot as plt 
-import seaborn as sns
+[The Dawn Of A New Era: AI's Revolutionary Role In Accounting](https://www.forbes.com/sites/neilsahota/2024/04/22/the-dawn-of-a-new-era-ais-revolutionary-role-in-accounting/?sh=1ff4bc4858af)
 
-import sklearn
-```
-
-```{python}
-import os
-```
 

@@ -1,8 +1,10 @@
 ---
-title: "Auditing & Assurance Services"
+title: "Analtyics for Accounting Data"
+jupyter: python3
 engine: knitr
-description: "How do the Auditors Work?"
+description: "Getting Insights from Accounting Data"
 ---
+
 ```{r}
 #| include: false
 
@@ -13,7 +15,6 @@ Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Py
 py_config()
 ```
 
-
 # Introduction 
 
 ```{python}
@@ -22,7 +23,6 @@ import seaborn as sns
 
 import sklearn
 ```
-
 
 ```{python}
 import os
