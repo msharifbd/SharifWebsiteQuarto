@@ -13,12 +13,12 @@ website:
         text: Projects
       - href: resume/Sharif_Resume_R.pdf
         text: Resume
-      - href: blogs.qmd
-        text: Blogs
       - href: books.qmd
         text: Books
       - href: teaching.qmd
         text: Teaching
+      - href: blogs.qmd
+        text: Blogs
       - icon: github
         href: https://github.com/msharifbd
       - icon: twitter

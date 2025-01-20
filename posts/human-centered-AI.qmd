@@ -1,0 +1,8 @@
+---
+title: "Human Centered AI"
+date: "January 20, 2025"
+jupyter: python3
+description: "Why and How Human is Important in AI?"
+---
+
+Maximizing generative AI’s promise while minimizing its misuse requires an inclusive approach that puts humans first. Please read the full article [here](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-case-for-human-centered-ai?cid=soc-web#/).
