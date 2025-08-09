@@ -1,6 +1,6 @@
 ---
 title: "<center>Sharif Islam, DBA, CPA, CMA"
-subtitle: "<center>**Assistant Professor <br> School of Accountancy<br> Southern Illinois University Carbondale <br> Carbondale, IL**"
+subtitle: "<center>**Associate Professor <br> School of Accountancy<br> Southern Illinois University Carbondale <br> Carbondale, IL**"
 jupyter: python3
 toc: false 
 image: image/myphoto_SIUC.jpg
