@@ -3,7 +3,7 @@ title: "About"
 jupyter: python3
 ---
 
-I am an Assistant Professor in School of Accountancy in College of Business and Analytics in Southern Illinois University Carbondale. My teaching and research interests lie in the intersection between Accounting and Data Science. 
+I am an Associate Professor in School of Accountancy in College of Business and Analytics in Southern Illinois University Carbondale. My teaching and research interests lie in the intersection between Accounting and Data Science. 
 
 # Education 
 
