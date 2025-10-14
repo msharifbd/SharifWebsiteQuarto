@@ -6,19 +6,19 @@ website:
   navbar:
     right:
       - href: index.qmd
-        text: Home
+        text: HOME
       - href: about.qmd
-        text: About
+        text: ABOUT
       - href: project.qmd
-        text: Projects
+        text: PPROJECTS
       - href: resume/Sharif_Resume_R.pdf
-        text: Resume
+        text: RESUME
       - href: books.qmd
-        text: Books
+        text: BOOKS
       - href: teaching.qmd
-        text: Teaching
+        text: TEACHING
       - href: blogs.qmd
-        text: Blogs
+        text: BLOGS
       - icon: github
         href: https://github.com/msharifbd
       - icon: twitter
