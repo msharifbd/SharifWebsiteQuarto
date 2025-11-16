@@ -1,0 +1,14 @@
+---
+title: "Advanced Cost Accounting"
+engine: knitr
+description: "What Roles Do Management Accountants Play in an Organization"
+---
+
+
+# Introduction 
+
+
+
+
+# Course Syllabus 
+

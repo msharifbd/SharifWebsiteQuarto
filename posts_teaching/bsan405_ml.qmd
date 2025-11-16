@@ -28,3 +28,8 @@ import os
 ```
 
 # Course Syllabus 
+
+
+# Link of the Course 
+
+The link of the course [Machine Learning in Business](https://mlbusinesssiuc.netlify.app/)

@@ -33,7 +33,7 @@ format:
     theme: superhero
     css: styles.css
     toc: true
-    mainfont: serif
+    mainfont: "Garamond, serif"
 
 
 
