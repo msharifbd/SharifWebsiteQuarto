@@ -7,7 +7,7 @@ description: "Free Books for Empirical Research in Accounting & Finance"
 
 Some Good Books to Learn Research Methodologies in Accounting & Finance - 
 
-01. [Empirical Research in Accounting: Tools and Methods](http://iangow.me/far_book/)
+01. [Empirical Research in Accounting: Tools and Methods](https://iangow.github.io/far_book/)
 
 02. [Tidy Finance with R](https://www.tidy-finance.org/r/)
 
