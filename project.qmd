@@ -3,6 +3,9 @@ title: "Project"
 jupyter: python3
 ---
 
+# Chief Audit Executive (CAE) Busyness & Audit Outcomes 
+
+
 # CEO Network Centrality & Audit Timeliness 
 The study examines the association between CEO’s network connections and audit timeliness. Based on extant research, we hypothesize that well-connected CEOs are associated with reduced audit lag. Using a sample of over 2000 firms for the period 2004 to 2017, we find that, *ceteris paribus*, firms with well-connected CEOs are associated with reduced audit lag. We also find firms led by more connected CEOs have better financial reporting quality and pay higher auditing fees for increased audit efforts. In addition, well-connected CEO firms release 10-K reports in a timelier manner. These findings suggest that improved information environment around well-connected CEOs lead to the timely dissemination of high-quality financial information to market participants.
 
