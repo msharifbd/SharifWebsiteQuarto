@@ -1,0 +1,61 @@
+---
+title: "In This Critical Part of Audits, the Accountant’s Role Is Shrinking Fast"
+date: "April 13, 2026"
+jupyter: python3
+description: "KPMG pilots removal of humans from routine testing of things like payroll and expenses, with greater reliance on AI agents"
+---
+
+Accounting firms are scaling back the role of human auditors in routine testing of things like payroll and revenue contracts, long a critical part of their work, amid a greater reliance on AI agents.
+
+KPMG said it plans to remove humans from routine testing so they can focus on more complicated tasks, while “orchestration agents”—which autonomously manage several agents, potentially more than 20—handle testing duties. That switch will start with a pilot program this summer, with plans for full AI agent deployment on certain tests next year.
+
+While human auditors won’t perform routine testing, they will still review it, work on data collection and do risk assessment. Of these four areas of the audit, only routine testing was listed as having no human audit team associated with it within two to three years, according to a presentation in a KPMG briefing.
+
+“Tomorrow, for those routine transactions, I think there will be next to no human beings in that bubble,” said Thomas Mackenzie, KPMG’s audit chief digital officer. “It will all be agents and orchestrators doing it.”
+
+Accounting firms are working to change how traditional auditing work is done, with the aim of taking away younger professionals’ rote work and allowing them more critical thinking.
+
+Routine testing includes payroll, expense vouching, cash procedures, search for unrecorded liabilities, accounts receivable, acquisitions of new buildings and equipment, and the cost of goods sold. Human auditors, for years, pulled a finite sample of these items, extracted the data into an Excel spreadsheet, applied auditing guidelines, and marked whether the items passed or failed.
+
+AI tools now run alongside traditional human audits to compare results and ensure quality control. Firms in recent years have used AI agents for testing, but that work has been limited. At KPMG, AI agents are prompted by people to conduct a discrete set of tasks with humans evaluating tests and moving them to other agents to complete the work.
+
+Some Big Four firm leaders estimate that agents will contribute between 20% and 30% of a typical financial audit by 2029, essentially the proportion of the human effort that will be removed.
+
+“It sounds like we’re just slicing the bottom of the pyramid off,” Mackenzie said. “We’re lifting the pyramid up.”
+
+Testing is a key part of auditors’ assessment of company financial statements. Auditors are required to examine specific business transactions and financial documents to verify that they actually exist, and are recorded and accounted for accurately.
+
+The stakes for accurate auditing are high, as failures can result in billions of dollars in costs to investors. Regulators are just starting to develop frameworks around AI in auditing. Last week, the U.K.’s Financial Reporting Council issued guidance on how firms should use these tools, warning that the human auditor is always accountable.
+
+While the firms vary on timelines, they generally agree that AI agents will increasingly handle routine testing—such as payroll and expense vouching—to improve efficiency and data accuracy.
+
+PricewaterhouseCoopers is attempting to apply AI agents to more advanced testing, such as assessing whether revenue for U.S. pharmaceutical rebates was recorded properly, said Shawn Panson, the firm’s U.S. assurance transformation leader.
+
+The firm’s evidence-match tool, which automatically matches information between two sets of records, can process 30 types of documents from a client, Panson said. Six months ago, the tool could only read basic PDFs.
+
+Panson said he expects AI agents to be able to ingest more information and take on audit tasks involving more judgment over time, while humans continue to provide oversight.
+
+At Ernst & Young, auditor agents will soon be talking with the agents of its clients about audit testing procedures, among other things.
+
+In changes being piloted now, EY’s agents are making preliminary selections of financial statement data and requests for supporting information. Clients’ agents will collect supporting details and send them to EY’s agents, which will use that to prepare working papers that are then reviewed by humans.
+
+“The routine areas are absolutely where we see the opportunity to increase a different amount of technology and automation,” said Richard Jackson, EY’s global and Americas assurance AI leader. This week, EY globally launched new agentic AI capabilities for auditors and clients.
+
+The quality of AI agents will improve as they are able to more accurately spot inconsistencies in data, Jackson said. That could involve making key catches in revenue contracts spanning hundreds of pages, for example.
+
+“The ability to say a memo or a piece of analysis talked about something in a certain way, but that doesn’t correspond or isn’t supported by the underlying data, is incredibly powerful,” he said.
+
+Deloitte & Touche opts for a more conservative, human-centric public stance to reassure their clients on human accountability and audit quality. Deloitte, which includes Deloitte & Touche in its global network, sponsors CFO Journal.
+
+The firm views agentic AI as enhancing the human auditor’s capabilities to continuously improve audit quality, not replacing them, said Will Bible, the firm’s digital products leader.
+
+“While AI will transform how we execute testing and improve efficiency, audit quality ultimately depends on human judgment, professional skepticism and accountability,” Bible said. 
+
+This shift doesn’t necessarily signal a decline in the hiring of junior auditors, KPMG’s Mackenzie said.
+
+He won’t hire a college graduate anymore to create workpapers, he said. Instead, he’s looking for someone who grasps the findings of a workpaper with the assistance of AI.
+
+“Audit know-how is still going to be gold,” Mackenzie said. “We need that.”
+
+Please read the full article [here](https://www.wsj.com/cfo-journal/in-this-critical-part-of-audits-the-accountants-role-is-shrinking-fast-69c7f2bc).
+
