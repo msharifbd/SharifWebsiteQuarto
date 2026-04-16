@@ -9,9 +9,11 @@ Some Good Books to Learn Research Methodologies in Accounting & Finance -
 
 01. [Empirical Research in Accounting: Tools and Methods](https://iangow.github.io/far_book/)
 
-02. [Tidy Finance with R](https://www.tidy-finance.org/r/)
+02. [Empirical Research in Accounting: Tools and Methods - Python Polars Edition](https://iangow.github.io/era_pl_book/)
 
-03. [Tidy Finance with Python](https://www.tidy-finance.org/python/)
+03. [Tidy Finance with R](https://www.tidy-finance.org/r/)
 
-04. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
+04. [Tidy Finance with Python](https://www.tidy-finance.org/python/)
+
+05. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
 
