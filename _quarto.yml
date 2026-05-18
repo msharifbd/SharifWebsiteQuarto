@@ -31,6 +31,7 @@ website:
 format:
   html:
     theme: superhero
+    engine: knitr
     css: styles.css
     toc: true
     mainfont: "Garamond, serif"

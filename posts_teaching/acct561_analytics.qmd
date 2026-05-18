@@ -1,12 +1,12 @@
 ---
 title: "Analtyics for Accounting Data"
 jupyter: python3
-engine: knitr
 description: "Getting Insights from Accounting Data"
 ---
 
 ```{r}
 #| include: false
+#| eval: false
 
 library(reticulate)
 # Use Python below does not work 

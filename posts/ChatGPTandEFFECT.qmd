@@ -134,7 +134,6 @@ ChaptGPT was released on November 30, 2022. Here I compare the share price of Nv
 #| message: false
 #| warning: false
 #| code-fold: true 
-
 library(tidyverse)
 library(tidyquant)
 ```
@@ -190,18 +189,25 @@ prices %>%
 ```{r}
 #| include: false
 
+
 library(reticulate)
 # Use Python below does not work 
 #use_python("C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
-Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+#Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+
+Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python313\\python.exe")
+
+
 py_config()
 ```
+
+
+
 
 ```{python}
 #| message: false
 #| warning: false
 #| code-fold: true
-
 
 ##########################################################
 ## Using Seaborn 
@@ -223,7 +229,7 @@ tickers = ['CHGG', 'NVDA']
 # Suppress messages and warnings 
 with contextlib.redirect_stdout(open(os.devnull, 'w')), contextlib.redirect_stderr(open(os.devnull, 'w')): 
   # Fetch the historical data for the last 5 years 
-  data = yf.download(tickers, start='2019-11-26', end='2024-11-24')['Adj Close']
+  data = yf.download(tickers, start='2019-11-26', end='2024-11-24',auto_adjust=False)['Adj Close']
 
 
 # Convert the index to datetime format if it's not already

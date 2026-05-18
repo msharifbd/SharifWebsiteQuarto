@@ -1,12 +1,12 @@
 ---
 title: "Accounting Information Systems"
 jupyter: python3
-engine: knitr
 description: "How does the AIS Work?"
 ---
 
 ```{r}
 #| include: false
+#| eval: false
 
 library(reticulate)
 # Use Python below does not work 

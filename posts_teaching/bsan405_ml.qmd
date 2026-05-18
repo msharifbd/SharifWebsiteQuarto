@@ -1,10 +1,11 @@
 ---
 title: "Machine Learning in Business"
-engine: knitr
+jupyter: python3
 description: "How does Machine Learning Work in Business?"
 ---
 ```{r}
 #| include: false
+#| eval: false 
 
 library(reticulate)
 # Use Python below does not work 

@@ -1,0 +1,11 @@
+---
+title: "The Academic Scramble to Prepare Future Accountants for AI"
+date: "May 18, 2026" 
+jupyter: python3
+description: "I was falling further and further behind,’ one professor says, as universities retool to keep students up-to-date amid changes in entry-level demands and CPA laws"
+---
+
+
+[The Academic Scramble to Prepare Future Accountants for AI](https://www.wsj.com/cfo-journal/the-academic-scramble-to-prepare-future-accountants-for-ai-ac9208fc)
+
+

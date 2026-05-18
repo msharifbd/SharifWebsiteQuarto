@@ -1,10 +1,11 @@
 ---
 title: "Auditing & Assurance Services"
-engine: knitr
+jupyter: python3
 description: "How do the Auditors Work?"
 ---
 ```{r}
 #| include: false
+#| eval: false 
 
 library(reticulate)
 # Use Python below does not work 
