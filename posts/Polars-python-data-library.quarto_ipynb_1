@@ -1,0 +1,31 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Polars- A Python Library for Data Analytics\"\n",
+        "date: \"April 20, 2024\" \n",
+        "jupyter: python3\n",
+        "description: \"Polars - An Alternative to Pandas \"\n",
+        "---\n",
+        "\n",
+        "`polars` library - An alternative to `pandas` library in `Python`.\n",
+        "\n",
+        "01. [Polars Cookbook](https://github.com/PacktPublishing/Polars-Cookbook)"
+      ],
+      "id": "2525a50c"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

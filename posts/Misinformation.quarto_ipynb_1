@@ -1,0 +1,29 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Spreading of Misinformation\"\n",
+        "date: \"January 20, 2024\" \n",
+        "jupyter: python3\n",
+        "description: \"How does Misinformation Spread?\"\n",
+        "---\n",
+        "\n",
+        "[Just 12 people are responsible for the majority of COVID-19 conspiracy theories online, study finds. JFK's anti-vaxxer nephew is one of the 'disinformation dozen.](https://www.businessinsider.com/12-anti-vaxxers-responsible-for-most-disinformation-online-study-says-2021-7)"
+      ],
+      "id": "49bec9c3"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

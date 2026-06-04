@@ -1,0 +1,30 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"The Accounting Skill AI Cannot Replace\"\n",
+        "date: \"June 03, 2026\" \n",
+        "jupyter: python3\n",
+        "description: \"Professional skepticism is the skill that separates an accountant from an algorithm. And right now, the profession is attempting to automate the very work that was central to practicing that skill\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "[The Accounting Skill AI Cannot Replace](https://www.forbes.com/sites/yvonnehinson/2026/06/02/the-accounting-skill-ai-cannot-replace/)\n"
+      ],
+      "id": "41379817"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

@@ -1,0 +1,11 @@
+---
+title: "The Accounting Skill AI Cannot Replace"
+date: "June 03, 2026" 
+jupyter: python3
+description: "Professional skepticism is the skill that separates an accountant from an algorithm. And right now, the profession is attempting to automate the very work that was central to practicing that skill"
+---
+
+
+[The Accounting Skill AI Cannot Replace](https://www.forbes.com/sites/yvonnehinson/2026/06/02/the-accounting-skill-ai-cannot-replace/)
+
+
