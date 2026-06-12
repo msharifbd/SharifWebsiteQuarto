@@ -29,3 +29,5 @@ Some Good Books to Learn Statistics, Data Visualizations, Modeling, and Developm
 
 11. [Python for Data Analysis](https://wesmckinney.com/book/)
 
+12. [R Packages - How to Create R Package](https://r-pkgs.org/)
+

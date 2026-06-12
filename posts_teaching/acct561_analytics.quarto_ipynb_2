@@ -1,0 +1,70 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Analtyics for Accounting Data\"\n",
+        "jupyter: python3\n",
+        "description: \"Getting Insights from Accounting Data\"\n",
+        "---\n",
+        "\n",
+        "```{r}\n",
+        "#| include: false\n",
+        "#| eval: false\n",
+        "\n",
+        "library(reticulate)\n",
+        "# Use Python below does not work \n",
+        "#use_python(\"C:\\\\Users\\\\mshar\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\")\n",
+        "Sys.setenv(\"RETICULATE_PYTHON\" = \"C:\\\\Users\\\\mshar\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\")\n",
+        "py_config()\n",
+        "```\n",
+        "\n",
+        "# Introduction "
+      ],
+      "id": "59e49ec7"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt \n",
+        "import seaborn as sns\n",
+        "\n",
+        "import sklearn"
+      ],
+      "id": "b609adf6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import os"
+      ],
+      "id": "e4b92ea8",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Course Syllabus "
+      ],
+      "id": "25b55af4"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
