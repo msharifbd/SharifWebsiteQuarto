@@ -9,7 +9,7 @@
         "description: How do the Auditors Work?\n",
         "---"
       ],
-      "id": "e79035b9"
+      "id": "ab8065b6"
     },
     {
       "cell_type": "markdown",
@@ -29,7 +29,7 @@
         "\n",
         "# Introduction "
       ],
-      "id": "4332d4fe"
+      "id": "e8f7feb6"
     },
     {
       "cell_type": "code",
@@ -40,7 +40,7 @@
         "\n",
         "import sklearn"
       ],
-      "id": "a7d903df",
+      "id": "54f57288",
       "execution_count": null,
       "outputs": []
     },
@@ -50,7 +50,7 @@
       "source": [
         "import os"
       ],
-      "id": "b3c1ca9b",
+      "id": "a01eb3ea",
       "execution_count": null,
       "outputs": []
     },
@@ -60,7 +60,7 @@
       "source": [
         "# Course Syllabus "
       ],
-      "id": "fec0ccd3"
+      "id": "2a3b3508"
     }
   ],
   "metadata": {
