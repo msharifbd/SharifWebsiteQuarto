@@ -1,0 +1,9 @@
+---
+title: "SpaceX CFO Bret Johnsen Quietly Engineered its Historic IPO and Became an Overnight Billionaire"
+date: "June 16, 2026"
+jupyter: python3
+description: "A Billionaire Accountant"
+---
+
+[A Billionaire Accountant](https://fortune.com/2026/06/13/spacex-cfo-bret-johnsen-overnight-billionaire-ipo/).
+
