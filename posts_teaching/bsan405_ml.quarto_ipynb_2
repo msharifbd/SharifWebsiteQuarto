@@ -9,7 +9,7 @@
         "description: How does Machine Learning Work in Business?\n",
         "---"
       ],
-      "id": "38e59004"
+      "id": "f07b40cf"
     },
     {
       "cell_type": "markdown",
@@ -29,7 +29,7 @@
         "\n",
         "# Introduction "
       ],
-      "id": "ae1d002b"
+      "id": "1ab6ae7b"
     },
     {
       "cell_type": "code",
@@ -40,7 +40,7 @@
         "\n",
         "import sklearn"
       ],
-      "id": "4d982af0",
+      "id": "842f4fd1",
       "execution_count": null,
       "outputs": []
     },
@@ -50,7 +50,7 @@
       "source": [
         "import os"
       ],
-      "id": "68aae4f5",
+      "id": "01216b38",
       "execution_count": null,
       "outputs": []
     },
@@ -65,7 +65,7 @@
         "\n",
         "The link of the course [Machine Learning in Business](https://mlbusinesssiuc.netlify.app/)"
       ],
-      "id": "f620c915"
+      "id": "6bc66ae4"
     }
   ],
   "metadata": {

@@ -23,7 +23,7 @@
         "\n",
         "# Introduction "
       ],
-      "id": "2f7ae259"
+      "id": "49bd1043"
     },
     {
       "cell_type": "code",
@@ -34,7 +34,7 @@
         "\n",
         "import sklearn"
       ],
-      "id": "f4d02ecd",
+      "id": "e97e5563",
       "execution_count": null,
       "outputs": []
     },
@@ -44,7 +44,7 @@
       "source": [
         "import os"
       ],
-      "id": "90b77c0f",
+      "id": "c057d2e8",
       "execution_count": null,
       "outputs": []
     },
@@ -54,7 +54,7 @@
       "source": [
         "# Course Syllabus "
       ],
-      "id": "98bae81c"
+      "id": "2af88191"
     }
   ],
   "metadata": {
