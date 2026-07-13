@@ -1,0 +1,55 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Some Good Books on Statistics, Data Visualizations, and Modeling\"\n",
+        "date: \"May 29, 2024\" \n",
+        "jupyter: python3\n",
+        "description: \"Books on Statistics, Visualizations, and Modeling\"\n",
+        "---\n",
+        "\n",
+        "Some Good Books to Learn Statistics, Data Visualizations, Modeling, and Development of Data Science Projects - \n",
+        "\n",
+        "01. [An Introduction to Statistical Learning](https://www.statlearning.com/)\n",
+        "\n",
+        "02. [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)\n",
+        "\n",
+        "03. [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)\n",
+        "\n",
+        "04. [Tidy Modeling with R](https://www.tmwr.org/)\n",
+        "\n",
+        "05. [Python for Data Science](https://aeturrell.github.io/python4DS/welcome.html)\n",
+        "\n",
+        "06. [A Practical Guide to Macroeconomic Data with R and Python](https://quantamental-python.com/)\n",
+        "\n",
+        "07. [STAT 545](https://stat545.com/)\n",
+        "\n",
+        "08. [STAT 545 @UBC](https://stat545.stat.ubc.ca/)\n",
+        "\n",
+        "09. [DevOps for Data Science](https://do4ds.com/)\n",
+        "\n",
+        "10. [Happy Git and GitHub for the useR](https://happygitwithr.com/)\n",
+        "\n",
+        "11. [R for Data Science](https://r4ds.hadley.nz/)\n",
+        "\n",
+        "12. [Python for Data Analysis](https://wesmckinney.com/book/)\n",
+        "\n",
+        "13. [R Packages - How to Create R Package](https://r-pkgs.org/)\n"
+      ],
+      "id": "7ef97140"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

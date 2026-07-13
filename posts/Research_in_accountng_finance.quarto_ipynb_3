@@ -1,0 +1,39 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Empirical Research in Accounting & Finance\"\n",
+        "date: \"July 09, 2024\" \n",
+        "jupyter: python3\n",
+        "description: \"Free Books for Empirical Research in Accounting & Finance\"\n",
+        "---\n",
+        "\n",
+        "Some Good Books to Learn Research Methodologies in Accounting & Finance - \n",
+        "\n",
+        "01. [Empirical Research in Accounting: Tools and Methods](https://iangow.github.io/far_book/)\n",
+        "\n",
+        "02. [Empirical Research in Accounting: Tools and Methods - Python Polars Edition](https://iangow.github.io/era_pl_book/)\n",
+        "\n",
+        "03. [Tidy Finance with R](https://www.tidy-finance.org/r/)\n",
+        "\n",
+        "04. [Tidy Finance with Python](https://www.tidy-finance.org/python/)\n",
+        "\n",
+        "05. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)\n"
+      ],
+      "id": "d4d72e1e"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

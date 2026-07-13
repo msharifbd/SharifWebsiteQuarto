@@ -1,0 +1,81 @@
+{
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Machine Learning in Business\n",
+        "description: How does Machine Learning Work in Business?\n",
+        "---"
+      ],
+      "id": "7db83603"
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "```{r}\n",
+        "#| include: false\n",
+        "#| eval: false \n",
+        "\n",
+        "library(reticulate)\n",
+        "# Use Python below does not work \n",
+        "#use_python(\"C:\\\\Users\\\\mshar\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\")\n",
+        "Sys.setenv(\"RETICULATE_PYTHON\" = \"C:\\\\Users\\\\mshar\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python311\\\\python.exe\")\n",
+        "py_config()\n",
+        "```\n",
+        "\n",
+        "\n",
+        "# Introduction "
+      ],
+      "id": "f86230ba"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt \n",
+        "import seaborn as sns\n",
+        "\n",
+        "import sklearn"
+      ],
+      "id": "bb9b8973",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import os"
+      ],
+      "id": "66eb7b33",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Course Syllabus \n",
+        "\n",
+        "\n",
+        "# Link of the Course \n",
+        "\n",
+        "The link of the course [Machine Learning in Business](https://mlbusinesssiuc.netlify.app/)"
+      ],
+      "id": "34b37489"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

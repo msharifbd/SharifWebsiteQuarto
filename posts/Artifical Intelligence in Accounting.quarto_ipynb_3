@@ -1,0 +1,29 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Artificial Intelligence in Accounting\"\n",
+        "date: \"March 27, 2024\"\n",
+        "jupyter: python3\n",
+        "description: \"How is Artificial Intelligence affecting Accounting?\"\n",
+        "---\n",
+        "\n",
+        "In today's rapidly changing world, artificial intelligence (AI) is not just a buzzword but a beacon of transformation across various sectors and industries. Accounting firms, traditionally perceived as bastions of meticulousness and conservatism, are now at the forefront of this revolution, harnessing AI to redefine their operations, service offerings, and client interactions. The integration of AI in accounting is not merely an enhancement; it's a radical reinvention that is shaping the future of the industry. It's a seismic shift that is redefining the realm of numbers and finance. Beyond task automation, this is about opening doors to new possibilities, transforming the way accountants work, and reshaping the industry's future. To get more insights about the role of AI in Accounting, please read the full article [here](https://www.forbes.com/sites/neilsahota/2024/04/22/the-dawn-of-a-new-era-ais-revolutionary-role-in-accounting/?sh=1ff4bc4858af).\n"
+      ],
+      "id": "474daa38"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

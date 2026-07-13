@@ -1,0 +1,31 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"First Data Analysis with Python\"\n",
+        "date: \"July 13, 2026\"\n",
+        "jupyter: python3\n",
+        "description: \"First Data Analysis in Python in a Jupyter Notebook\"\n",
+        "---\n",
+        "\n",
+        "This is a great introductory tutorial to prepare you for using Python for the first time. The Integrated Development Environment (IDE) used for this tutorial is Positron, which is a clone version of Visual Studio (VS) code.\n",
+        "\n",
+        "[First Data Analysis in Python](https://positron.posit.co/tutorial-get-started-ipynb.html).\n"
+      ],
+      "id": "60ed08a9"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

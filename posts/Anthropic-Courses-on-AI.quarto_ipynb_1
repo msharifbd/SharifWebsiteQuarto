@@ -1,0 +1,42 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Anthropic Courses on Artificial Intelligence\"\n",
+        "date: \"July 13, 2026\"\n",
+        "jupyter: python3\n",
+        "description: \"Learn Claude from Anthropic\"\n",
+        "---\n",
+        "\n",
+        "Anthropic Courses appears to be Anthropic’s training hub for learning Claude, AI fluency, API development, MCP, and Claude Code. Their course catalog includes beginner-friendly courses like Claude 101 and more advanced topics such as building with the Claude API and Claude Code.\n",
+        "\n",
+        "These courses are useful if you want to:\n",
+        "\n",
+        "  * Learn Claude from the basics.\n",
+        "\n",
+        "  * Build Claude-powered apps.\n",
+        "\n",
+        "  * Understand MCP and tool use.\n",
+        "\n",
+        "  * Improve prompt engineering and AI workflows.\n",
+        "\n",
+        "\n",
+        "[Anthropic (Claude) AI Courses](https://anthropic.skilljar.com/).\n"
+      ],
+      "id": "75d6d9f8"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

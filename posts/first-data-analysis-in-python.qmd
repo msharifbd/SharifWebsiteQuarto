@@ -1,0 +1,11 @@
+---
+title: "First Data Analysis with Python"
+date: "July 13, 2026"
+jupyter: python3
+description: "First Data Analysis in Python in a Jupyter Notebook"
+---
+
+This is a great introductory tutorial to prepare you for using Python for the first time. The Integrated Development Environment (IDE) used for this tutorial is Positron, which is a clone version of Visual Studio (VS) code.
+
+[First Data Analysis in Python](https://positron.posit.co/tutorial-get-started-ipynb.html).
+

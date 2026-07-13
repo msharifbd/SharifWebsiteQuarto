@@ -1,0 +1,46 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"A Wake-up Call about AI Cheating\"\n",
+        "date: \"July 10, 2026\"\n",
+        "jupyter: python3\n",
+        "description: \"AI Cheating\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "![](../image/AI-CHEATING.jpeg){width=100% fig-align=\"center\" style=\"transform: rotate(360deg);\"}\n",
+        "\n",
+        "\n",
+        "[This chart should be a 'wake-up call' about AI cheating, Brown University professor says](https://www.businessinsider.com/brown-university-ai-cheating-scandal-2026-7).\n",
+        "\n",
+        "Or \n",
+        "\n",
+        "[Brown Professor Suspects Majority of His Class Used AI to Cheat](https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## We Cannot Choose to Become Idiots \n",
+        "\n",
+        "As colleges and universities grapple with AI, cheating must be taken seriously, Serrano said. “We cannot afford to have a society in which a significant fraction of our best young minds think that cheating is OK,” he said. “That leads to a declining society, to a failed society … **We cannot choose to become idiots.**”\n"
+      ],
+      "id": "1ff71dcc"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

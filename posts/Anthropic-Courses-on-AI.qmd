@@ -1,0 +1,22 @@
+---
+title: "Anthropic Courses on Artificial Intelligence"
+date: "July 13, 2026"
+jupyter: python3
+description: "Learn Claude from Anthropic"
+---
+
+Anthropic Courses appears to be Anthropic’s training hub for learning Claude, AI fluency, API development, MCP, and Claude Code. Their course catalog includes beginner-friendly courses like Claude 101 and more advanced topics such as building with the Claude API and Claude Code.
+
+These courses are useful if you want to:
+
+  * Learn Claude from the basics.
+
+  * Build Claude-powered apps.
+
+  * Understand MCP and tool use.
+
+  * Improve prompt engineering and AI workflows.
+
+
+[Anthropic (Claude) AI Courses](https://anthropic.skilljar.com/).
+
