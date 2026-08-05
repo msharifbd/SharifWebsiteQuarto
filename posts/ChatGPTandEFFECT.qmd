@@ -135,7 +135,7 @@ ChaptGPT was released on November 30, 2022. Here I compare the share price of Nv
 #| warning: false
 #| code-fold: true 
 library(tidyverse)
-library(tidyquant)
+library(tidyfinance)
 ```
 
 ```{r}
@@ -149,23 +149,20 @@ library(tidyquant)
 symbols <- c("CHGG", "NVDA")
 
 # Set the date range for the last five years
-start_date <- Sys.Date() - 5*365 # 2019-11-26
-end_date <- Sys.Date() # 2024-11-24
+start_date <- '2019-11-26'
+end_date <- '2024-11-24'
 
 # Get the stock data
-#getSymbols(symbols, src = "yahoo", from = start_date, to = end_date, auto.assign = TRUE)
+prices <- download_data(symbols = symbols,
+                 start_date = start_date,
+                 end_date  = end_date,
+                 domain = "Stock Prices")
 
-# Extract the adjusted closing prices and convert to a data frame
-
-prices <- tq_get(symbols,
-                 from = start_date,
-                 to = end_date,
-                 get = "stock.prices")
 
 # Plot the data using ggplot2
 
 prices %>%
-  ggplot(aes(x = date, y = adjusted, color = symbol)) +
+  ggplot(aes(x = date, y = adjusted_close, color = symbol)) +
   geom_line() +
   labs(title = "Chegg vs Nvidia Share Prices (2019-2024)",
        x = "Date",
@@ -194,10 +191,7 @@ library(reticulate)
 # Use Python below does not work 
 #use_python("C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
 #Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
-
 Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
-
-
 py_config()
 ```
 
@@ -212,38 +206,34 @@ py_config()
 ##########################################################
 ## Using Seaborn 
 ###########################################################
-import yfinance as yf
+import tidyfinance as tf
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-import os
-import contextlib
+```
+
+```{python}
+#| message: false
+#| warning: false
+#| fig-width: 12
+#| fig-height: 6
+#| code-fold: true
 
 
 # Define the stock tickers
 tickers = ['CHGG', 'NVDA']
 
-# Fetch the historical data for the last 5 years
-#data = yf.download(tickers, start='2019-11-26', end='2024-11-24')['Adj Close']
-
-# Suppress messages and warnings 
-with contextlib.redirect_stdout(open(os.devnull, 'w')), contextlib.redirect_stderr(open(os.devnull, 'w')): 
-  # Fetch the historical data for the last 5 years 
-  data = yf.download(tickers, start='2019-11-26', end='2024-11-24',auto_adjust=False)['Adj Close']
-
-
-# Convert the index to datetime format if it's not already
-data.index = pd.to_datetime(data.index)
-
-# Reset the index to use it in Seaborn
-data = data.reset_index()
-
-# Melt the data for Seaborn
-data_melted = data.melt('Date', var_name='Ticker', value_name='Price')
+# Get the data
+prices = tf.download_data(
+  domain = "Stock Prices",
+  symbols = tickers, 
+  start_date = '2019-11-26', 
+  end_date = '2024-11-24'
+)
 
 # Plot the data using Seaborn
 plt.figure(figsize=(16, 8))
-sns.lineplot(data=data_melted, x='Date', y='Price', hue='Ticker')
+sns.lineplot (data = prices, x = 'date', y = 'adjusted_close', hue = 'symbol')
 
 # Add a vertical line for the date 2023-11-30
 line_date = pd.to_datetime('2022-11-30')
@@ -268,5 +258,6 @@ plt.ylabel('Adjusted Price')
 plt.grid(True)
 plt.show()
 ```
+
 
 :::
