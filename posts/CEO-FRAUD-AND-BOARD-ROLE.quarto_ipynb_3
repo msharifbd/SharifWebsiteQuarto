@@ -17,7 +17,7 @@
         "\n",
         "But then the next shoe dropped: The company’s __board of directors__ waited three months to tell investors about it. Not only that, the fraudster was allowed to stay on as chief executive during that time. The company had forced her to resign and disclosed the mess only after getting wind of a criminal investigation.\n"
       ],
-      "id": "e29096af"
+      "id": "7235cd6a"
     },
     {
       "cell_type": "code",
@@ -111,7 +111,7 @@
         "# plt.savefig(\"caastle_timeline.png\", dpi=200, bbox_inches=\"tight\")\n",
         "plt.show()"
       ],
-      "id": "54241537",
+      "id": "68fd62a9",
       "execution_count": null,
       "outputs": []
     },
@@ -128,7 +128,7 @@
         "\n",
         "To learn more, please read the full article [here](https://www.nytimes.com/2026/06/07/business/caastle-fraud-christine-hunsicker.html?unlocked_article_code=1.oVA.mrtL.qd8aAigCv5st&smid=nytcore-ios-share).\n"
       ],
-      "id": "9ead596c"
+      "id": "89ddc2cd"
     }
   ],
   "metadata": {

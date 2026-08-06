@@ -30,7 +30,7 @@ website:
 
 format:
   html:
-    theme: superhero
+    theme: superhero 
     engine: knitr
     css: styles.css
     toc: true

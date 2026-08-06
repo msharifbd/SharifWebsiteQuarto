@@ -1,0 +1,60 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Accounting Information Systems\"\n",
+        "jupyter: python3\n",
+        "description: \"How does the AIS Work?\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "# Introduction "
+      ],
+      "id": "b8d7d897"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt \n",
+        "import seaborn as sns\n",
+        "\n",
+        "import sklearn"
+      ],
+      "id": "1a0fc058",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import os"
+      ],
+      "id": "0d5cf003",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Course Syllabus "
+      ],
+      "id": "1145c7c8"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

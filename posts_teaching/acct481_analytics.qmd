@@ -1,0 +1,22 @@
+---
+title: "Accounting Analytics"
+jupyter: python3
+description: "Getting Insights from Accounting Data"
+---
+
+
+
+# Introduction 
+
+```{python}
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+import sklearn
+```
+
+```{python}
+import os
+```
+
+# Course Syllabus 

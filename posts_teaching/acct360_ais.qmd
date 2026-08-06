@@ -4,16 +4,6 @@ jupyter: python3
 description: "How does the AIS Work?"
 ---
 
-```{r}
-#| include: false
-#| eval: false
-
-library(reticulate)
-# Use Python below does not work 
-#use_python("C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
-Sys.setenv("RETICULATE_PYTHON" = "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
-py_config()
-```
 
 # Introduction 
 
