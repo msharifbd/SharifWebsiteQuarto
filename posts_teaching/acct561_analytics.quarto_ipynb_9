@@ -1,0 +1,61 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Analtyics for Accounting Data\"\n",
+        "jupyter: python3\n",
+        "description: \"Getting Insights from Accounting Data\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Introduction "
+      ],
+      "id": "6ce99349"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt \n",
+        "import seaborn as sns\n",
+        "\n",
+        "import sklearn"
+      ],
+      "id": "137f6be6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import os"
+      ],
+      "id": "0c766ecb",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Course Syllabus "
+      ],
+      "id": "57c9315e"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
