@@ -292,5 +292,12 @@
     "title": "Accounting Analytics",
     "section": "",
     "text": "Introduction\n\nimport matplotlib.pyplot as plt \nimport seaborn as sns\n\nimport sklearn\n\n\nimport os\n\n\n\nCourse Syllabus"
+  },
+  {
+    "objectID": "posts/Teach-fractions-to-calculus-students.html",
+    "href": "posts/Teach-fractions-to-calculus-students.html",
+    "title": "UC-Berkeley math prof says she has to teach fractions to calculus students because standards have fallen so far",
+    "section": "",
+    "text": "UC-Berkeley math prof says she has to teach fractions to calculus students because standards have fallen so far"
   }
 ]

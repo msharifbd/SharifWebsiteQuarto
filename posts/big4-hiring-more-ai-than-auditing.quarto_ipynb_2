@@ -1,0 +1,45 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Big Four post more job ads for AI specialists than auditors\"\n",
+        "date: \"August 05, 2026\"\n",
+        "jupyter: python3\n",
+        "description: \"More AI People than Auditors\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "![](../image/BIGFOUR-ACCOUNTING-JOBS.jpg){width=100% fig-align=\"center\" style=\"transform: rotate(360deg);\"}\n",
+        "\n",
+        "\n",
+        "The Big Four accounting and consulting firms — Deloitte, EY, KPMG, and PwC — advertised more AI-related job postings than traditional auditing positions in 2025, according to a new analysis by the [Financial Times.](https://www.ft.com/content/46f3bb0e-7e6f-451a-af5e-b1c820ffaa71?syn-25a6b1a6=1).\n",
+        "\n",
+        "\n",
+        "Nearly 7% of the firms’ job postings required AI expertise, compared to less than 2% in 2022 when OpenAI’s ChatGPT was launched. At the same time, auditing roles accounted for just under 3% of the postings last year. One of the firms also noted that a single job posting could, in some cases, apply to multiple positions.\n",
+        "\n",
+        "\n",
+        "According to the Times, the hiring trend shows how quickly AI is transforming the consulting and auditing industries. At the same time, the industry is trying to adapt to the fact that AI could undercut the need for certain junior positions. Traditionally, consulting firms have been built on a “pyramid model” where many younger employees work under a smaller number of senior managers and partners. AI is now expected to automate parts of that workplace arrangement.\n",
+        "\n",
+        "\n",
+        "None of this means the *auditor’s job is finished*. Audits still need sign-off, professional scepticism and accountability that no model can provide, and regulators expect a person to stand behind the numbers. But the entry-level path into the profession is changing quickly, and the firms that set that path have just shown their hand.\n",
+        "\n",
+        "\n",
+        "{{< video https://www.youtube.com/watch?v=_-b3fCu-9c8 >}}"
+      ],
+      "id": "3a6fe7d9"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

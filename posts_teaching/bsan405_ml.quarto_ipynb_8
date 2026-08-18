@@ -1,0 +1,64 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Machine Learning in Business\"\n",
+        "jupyter: python3\n",
+        "description: \"How does Machine Learning Work in Business?\"\n",
+        "---\n",
+        "\n",
+        "# Introduction "
+      ],
+      "id": "1703f67c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt \n",
+        "import seaborn as sns\n",
+        "\n",
+        "import sklearn"
+      ],
+      "id": "9e3e34ff",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import os"
+      ],
+      "id": "663dee20",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Course Syllabus \n",
+        "\n",
+        "\n",
+        "# Link of the Course \n",
+        "\n",
+        "The link of the course [Machine Learning in Business](https://mlbusinesssiuc.netlify.app/)"
+      ],
+      "id": "e3eeccfc"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
