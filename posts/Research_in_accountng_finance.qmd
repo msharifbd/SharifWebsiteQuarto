@@ -17,3 +17,5 @@ Some Good Books to Learn Research Methodologies in Accounting & Finance -
 
 05. [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/index.html)
 
+06. [Causal Inference: The Remix](https://mixtape.scunning.com/)
+

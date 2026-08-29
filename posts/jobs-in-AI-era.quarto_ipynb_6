@@ -1,0 +1,72 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Two futures for jobs in an AI era\"\n",
+        "date: \"August 04, 2026\"\n",
+        "jupyter: python3\n",
+        "description: \"Professionalised jobs vs Democratised jobs\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "[The career advice PwC's US CEO says he gives to his college-aged kids](https://www.msn.com/en-us/money/executive-leadership-and-management/the-career-advice-pwc-s-us-ceo-says-he-gives-to-his-college-aged-kids/ar-AA29hEc2?ocid=msedgntp&pc=U531&cvid=6a72094536084e3e96ec446618b658a5&ei=10) \n",
+        "\n",
+        "Paul Griggs, the Big Four firm's US senior partner and CEO, said PwC hired fewer consultants and accountants this year than it did two years ago. He expects that trend to continue as the firm hires more data scientists, engineers, and machine learning experts. He predicts fewer accountants and consultants will be hired, but still encourages his kids to go into consulting. \n",
+        "\n",
+        "Griggs said that anyone who has worked inside a professional services firm can see that the **core work in accounting, consulting, and finance hasn't fundamentally changed**. He pointed to PwC's 2026 AI Jobs [Barometer report](https://www.pwc.com/gx/en/1/services/ai/ai-jobs-barometer.html), which analyzed more than a billion job postings worldwide to examine how AI is reshaping skills and occupations. The report found that professional services roles are among the fastest-evolving. It also found that **jobs where AI requires more human expertise are growing twice as fast as roles where AI is making it easier for non-experts to perform**, with wages in those occupations rising 42% faster since 2021.\n",
+        "\n",
+        "While consultants and accountants aren't disappearing, AI is **reshaping the skills** those jobs require. Griggs said PwC is hiring more people from nontraditional backgrounds and expects to see more liberal arts majors in consulting and other business roles because AI can amplify the need for \"broad knowledge.\" With that in mind, the CEO said he's a \"big believer\" in master's degrees and would support his kids going to MBA programs. He said both MBA programs and liberal arts degrees cultivate **continuous learners who are curious**, which is a **quality he prioritizes**.\n",
+        "\n",
+        "Some findings from [Barometer report](https://www.pwc.com/gx/en/1/services/ai/ai-jobs-barometer.html) - \n",
+        "\n",
+        "* AI is not creating one uniform future of work. It’s creating two very different futures:\n",
+        "\n",
+        "* Entry‑level jobs exposed to AI are splitting too: Some junior roles now require senior‑level skills (leadership, decision‑making). These roles grow 35%. Other junior roles that don’t evolve are shrinking.\n",
+        "\n",
+        "* Safest Long‑Term Accounting Roles\n",
+        "\n",
+        "| Role | Why It’s Safe | AI Impact |\n",
+        "|------|---------------|-----------|\n",
+        "| Financial Analyst | Judgment-heavy, strategic, modeling-focused | AI automates routine tasks, expands expert work |\n",
+        "| Senior Auditor / Audit Manager | Requires ethics, anomaly detection, complex judgment | AI handles basic testing, humans handle oversight |\n",
+        "| Tax Advisor / Tax Strategist | Complex interpretation of tax law | AI computes rules, humans design strategy |\n",
+        "| Forensic Accountant | Investigative, ambiguity-heavy | AI supports data scanning, humans interpret evidence |\n",
+        "| FP&A Analyst | Scenario planning, forecasting, executive advising | AI speeds modeling, humans make decisions |\n",
+        "\n",
+        "* Fastest-Growing Accounting Roles\n",
+        "\n",
+        "| Role | Growth Reason | AI’s Contribution |\n",
+        "|------|---------------|------------------|\n",
+        "| Financial Analyst | PwC shows rapid long-term growth | Automates data prep, enhances modeling |\n",
+        "| Risk Analyst / Compliance Analyst | Rising regulatory complexity | AI scans data, humans interpret risk |\n",
+        "| Management Accountant | Shift toward strategic advisory | AI automates reporting |\n",
+        "| Senior Audit Roles | More complex audit environments | AI handles routine checks |\n",
+        "| ESG/ Sustainability Accountant | New regulatory demand | AI helps with data collection and reporting |\n",
+        "\n",
+        "\n",
+        "* Skills for Moving Into the Professionalised Track\n",
+        "\n",
+        "| Skill Category | Specific Skills | Why It Matters |\n",
+        "|----------------|-----------------|----------------|\n",
+        "| Human-Intensive Skills | Judgment, ethics, leadership, communication, creativity | PwC shows these grow 2.5× faster in AI-exposed jobs |\n",
+        "| Analytical Skills | Financial modeling, forecasting, valuation, risk analysis | Moves you from routine to expert accounting |\n",
+        "| Technical Skills | Python, R, SQL, AI prompting, dashboarding | AI amplifies these skills instead of replacing them |\n",
+        "| Domain Specialization | Tax strategy, audit, forensics, FP&A, ESG | Specialization = expertise = professionalised track |\n"
+      ],
+      "id": "c33d6cc9"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

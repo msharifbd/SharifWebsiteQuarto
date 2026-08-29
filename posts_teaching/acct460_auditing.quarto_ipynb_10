@@ -1,0 +1,59 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Auditing & Assurance Services\"\n",
+        "jupyter: python3\n",
+        "description: \"How do the Auditors Work?\"\n",
+        "---\n",
+        "\n",
+        "# Introduction "
+      ],
+      "id": "7d4e5477"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt \n",
+        "import seaborn as sns\n",
+        "\n",
+        "import sklearn"
+      ],
+      "id": "d137a2f4",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import os"
+      ],
+      "id": "61849e54",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Course Syllabus "
+      ],
+      "id": "2d60f114"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\mshar\\AppData\\Local\\Programs\\Python\\Python311\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
