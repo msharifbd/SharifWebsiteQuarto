@@ -1,9 +1,27 @@
 ---
-title: "Artificial Intelligence in Accounting"
-date: "March 27, 2024"
+title: "Artificial Intelligence (AI) in Accounting"
+date: "September 11, 2026"
 jupyter: python3
-description: "How is Artificial Intelligence affecting Accounting?"
+description: "How is Artificial Intelligence (AI) affecting Accounting?"
 ---
 
-In today's rapidly changing world, artificial intelligence (AI) is not just a buzzword but a beacon of transformation across various sectors and industries. Accounting firms, traditionally perceived as bastions of meticulousness and conservatism, are now at the forefront of this revolution, harnessing AI to redefine their operations, service offerings, and client interactions. The integration of AI in accounting is not merely an enhancement; it's a radical reinvention that is shaping the future of the industry. It's a seismic shift that is redefining the realm of numbers and finance. Beyond task automation, this is about opening doors to new possibilities, transforming the way accountants work, and reshaping the industry's future. To get more insights about the role of AI in Accounting, please read the full article [here](https://www.forbes.com/sites/neilsahota/2024/04/22/the-dawn-of-a-new-era-ais-revolutionary-role-in-accounting/?sh=1ff4bc4858af).
+01. [The Dawn Of A New Era: AI's Revolutionary Role In Accounting](https://www.forbes.com/sites/neilsahota/2024/04/22/the-dawn-of-a-new-era-ais-revolutionary-role-in-accounting/?sh=1ff4bc4858af).
+
+02. [The Accounting Skill AI Cannot Replace](https://www.forbes.com/sites/yvonnehinson/2026/06/02/the-accounting-skill-ai-cannot-replace/). 
+
+03. [Accounting Jobs Requiring AI Skills Jump 67%](https://www.cfodive.com/news/one-three-finance-roles-now-call-ai-skills-datarails/815504/).
+
+04. [Accounting’s Big ‘Wake-up Call’: AI is Forcing Companies to Rethink Entry-level Jobs](https://fortune.com/2026/05/12/ai-entry-level-accounting-jobs-disappearing-bamboohr-survey/).
+
+05.  [From AI Users to AI Thinkers: Reimagining What Accounting Undergrads Need to Succeed](https://www.thomsonreuters.com/en/institute/articles/ai-needs-accounting-undergrads).
+
+06. [How Accountants Learn Judgment in the Age of AI](https://www.thomsonreuters.com/en/institute/articles/accountant-judgment).
+
+07. [AI in Audit: The Gap between Knowing and Doing](https://www.thomsonreuters.com/en/institute/articles/ai-in-audit).
+
+08. [Tax and Audit Professionals Need to Know about Agentic AI](https://tax.thomsonreuters.com/blog/4-things-tax-and-audit-professionals-need-to-know-about-agentic-ai/).
+
+09. [Future of  Professionals  Report 2026](https://cdn.prod.website-files.com/69b41ee5dd715b5e9ce8c851/6a3594a2ba34e8bcdf2f1f5a_Future%20of%20Professionals%202026.pdf).
+
+10. [2026 AI in Professional Services Report](https://www.thomsonreuters.com/en/reports/2026-ai-in-professional-services-report).
 
