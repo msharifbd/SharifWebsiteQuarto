@@ -26,11 +26,13 @@ website:
   page-footer: 
      background: dark
      center: 
-      - "Copyright©2026, Sharif Islam"
+      - "<span style='color: orange !important;'>Copyright © 2026, Sharif Islam</span>"
 
 format:
   html:
-    theme: superhero 
+    theme: 
+      - cyborg 
+      - custom.scss
     engine: knitr
     css: styles.css
     toc: true

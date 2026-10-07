@@ -1,0 +1,57 @@
+/*-- scss:defaults --*/
+$primary: #e0e0e0;      
+$link-color: #88b4fa;   
+
+$navbar-bg: #060606;    // Matches your pitch-black background
+$navbar-fg: #ffffff;    // Default navbar text color is white
+$navbar-hl: orange;     // Built-in Quarto color highlight marker
+
+$footer-bg: #060606;    // Keeps the footer background pure seamless black
+
+/*-- scss:rules --*/
+// 1. Subtle dividers for a minimalist grid look
+.navbar {
+  border-bottom: 1px solid #222222 !important;
+}
+
+// 2. Custom Footer Orange Layout
+.page-footer {
+  border-top: 1px solid #222222 !important; // Sleek separating line above footer
+  color: orange !important;                  // Turns your "Copyright©2026..." text orange
+  
+  // Custom behavior for links inside the footer (if you add any)
+  a { 
+    color: orange !important; 
+    text-decoration: none;
+    
+    &:hover {
+      color: #ffffff !important;             // Links flash to white when you hover over them
+      text-decoration: underline;
+    }
+  }
+}
+
+// 3. Custom Navbar Orange Effects (Hover and Clicked/Active states)
+.navbar-nav {
+  // When you hover over a menu item
+  .nav-link:hover {
+    color: orange !important;
+  }
+  // When that page is currently active/clicked
+  .nav-link.active {
+    color: orange !important;
+    font-weight: 600; // Makes it slightly bolder so it stands out as the current page
+  }
+}
+
+
+/*-- scss:rules --*/
+
+// You MUST add !important so it forces Cyborg to give up its color rules
+.orange-text {
+  color: orange !important;
+}
+
+.blue-text {
+  color: #66b2ff !important;
+}
